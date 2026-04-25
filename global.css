@@ -1,0 +1,549 @@
+/* ============================================================
+   PATCH EXPLORER — DESIGN SYSTEM v2
+   Calm · typographic · refined
+   oklch · light-dark() · color-mix() · view-transitions
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ============================================================
+   CSS CUSTOM PROPERTIES - DESIGN TOKENS (oklch + light-dark)
+   ============================================================ */
+
+/* Theme is controlled by `html.dark` (set pre-paint in index.html).
+   `color-scheme` drives the light-dark() CSS function. */
+:root {
+  color-scheme: light;
+
+  /* ── Neutral palette (oklch) ── */
+  --gray-50:  oklch(0.985 0 0);
+  --gray-100: oklch(0.97 0 0);
+  --gray-200: oklch(0.92 0 0);
+  --gray-300: oklch(0.87 0 0);
+  --gray-400: oklch(0.71 0 0);
+  --gray-500: oklch(0.55 0 0);
+  --gray-600: oklch(0.44 0 0);
+  --gray-700: oklch(0.37 0 0);
+  --gray-800: oklch(0.27 0 0);
+  --gray-900: oklch(0.21 0 0);
+  --gray-950: oklch(0.15 0 0);
+
+  /* ── Core surfaces ──
+     Light mode: clean "paper" — true neutral.
+     Dark mode: deep "ink" — near-black with the faintest green warmth. */
+  --bg-color:         light-dark(oklch(0.985 0 0),       oklch(0.13 0.005 145));
+  --surface-color:    light-dark(oklch(1 0 0),           oklch(0.18 0.006 145));
+  --surface-elevated: light-dark(oklch(1 0 0),           oklch(0.22 0.008 145));
+  --hover-bg:         light-dark(oklch(0.96 0 0),        oklch(0.24 0.012 145));
+  --input-bg:         light-dark(oklch(1 0 0),           oklch(0.20 0.006 145));
+  --details-bg:       light-dark(oklch(0.975 0 0),       oklch(0.16 0.005 145));
+
+  /* ── Text ── */
+  --text-color:    light-dark(oklch(0.22 0.008 145), oklch(0.92 0.010 145));
+  --text-muted:    light-dark(oklch(0.45 0.006 145), oklch(0.70 0.008 145));
+  --text-subtle:   light-dark(oklch(0.60 0.004 145), oklch(0.55 0.006 145));
+  --heading-color: light-dark(oklch(0.12 0.010 145), oklch(0.97 0.012 145));
+
+  /* ── Accent: dark forest green (hue 145) ──
+     Light mode: deep, readable on white.
+     Dark mode: brighter "phosphor" green that pops on near-black. */
+  --accent-color: light-dark(oklch(0.42 0.14 145), oklch(0.78 0.18 145));
+  --accent-hover: light-dark(oklch(0.36 0.15 145), oklch(0.84 0.18 145));
+  --accent-light: light-dark(
+    oklch(0.42 0.14 145 / 0.10),
+    oklch(0.78 0.18 145 / 0.16)
+  );
+  --accent-ink:   light-dark(oklch(0.22 0.10 145), oklch(0.95 0.08 145));
+
+  /* ── Secondary accent: warm amber (hue 65) — for emphasis/highlights ── */
+  --highlight-color: light-dark(oklch(0.70 0.15 65), oklch(0.82 0.14 70));
+  --highlight-light: light-dark(
+    oklch(0.70 0.15 65 / 0.14),
+    oklch(0.82 0.14 70 / 0.18)
+  );
+
+  /* ── Borders: hairlines with the same subtle hue as surfaces ── */
+  --border-color: light-dark(oklch(0.88 0.006 145), oklch(0.28 0.010 145));
+  --border-light: light-dark(oklch(0.94 0.004 145), oklch(0.22 0.008 145));
+  --border-strong:light-dark(oklch(0.78 0.008 145), oklch(0.38 0.012 145));
+
+  /* ── Semantic colors (oklch) ── */
+  --success-400: oklch(0.75 0.17 160);
+  --success-500: oklch(0.68 0.17 160);
+  --success-600: oklch(0.60 0.15 160);
+  --danger-400:  oklch(0.70 0.18 25);
+  --danger-500:  oklch(0.60 0.22 25);
+  --danger-600:  oklch(0.52 0.20 25);
+  --warning-400: oklch(0.82 0.16 85);
+  --warning-500: oklch(0.78 0.16 85);
+
+  /* ── Legacy compat aliases — mapped to the new green accent ── */
+  --primary-50:  oklch(0.96 0.04 145);
+  --primary-100: oklch(0.92 0.07 145);
+  --primary-200: oklch(0.86 0.10 145);
+  --primary-300: oklch(0.77 0.13 145);
+  --primary-400: oklch(0.68 0.14 145);
+  --primary-500: oklch(0.58 0.15 145);
+  --primary-600: oklch(0.50 0.15 145);
+  --primary-700: oklch(0.42 0.14 145);
+  --primary-800: oklch(0.34 0.11 145);
+  --primary-900: oklch(0.26 0.08 145);
+  --accent-50:  var(--primary-50);
+  --accent-100: var(--primary-100);
+  --accent-200: var(--primary-200);
+  --accent-300: var(--primary-300);
+  --accent-400: var(--primary-400);
+  --accent-500: var(--primary-500);
+  --accent-600: var(--primary-600);
+
+  --link-color: light-dark(oklch(0.42 0.14 145), oklch(0.80 0.16 145));
+  --link-hover: light-dark(oklch(0.36 0.15 145), oklch(0.88 0.18 145));
+
+  /* ── Cards: subtle, layered depth ── */
+  --card-bg:     light-dark(oklch(1 0 0), oklch(0.21 0.007 250));
+  --card-border: light-dark(oklch(0.88 0.006 85), oklch(0.30 0.008 250));
+  --card-shadow: light-dark(
+    0 1px 2px oklch(0 0 0 / 0.04),
+    0 1px 2px oklch(0 0 0 / 0.30)
+  );
+  --card-shadow-hover: light-dark(
+    0 6px 20px -4px oklch(0.30 0.02 260 / 0.12),
+    0 6px 20px -4px oklch(0 0 0 / 0.45)
+  );
+  --card-shadow-focus: 0 0 0 3px var(--accent-light);
+
+  /* ── Critical / Security (warmer red-orange) ── */
+  --critical-bg:     light-dark(oklch(0.96 0.03 25), oklch(0.26 0.06 25));
+  --critical-border: light-dark(oklch(0.78 0.08 25), oklch(0.42 0.10 25));
+  --critical-text:   light-dark(oklch(0.48 0.18 25), oklch(0.84 0.14 25));
+
+  /* ── Glass variables mapped to flat equivalents ── */
+  --glass-bg:     light-dark(oklch(1 0 0), oklch(0.21 0.007 250));
+  --glass-border: light-dark(oklch(0.88 0.006 85), oklch(0.30 0.008 250));
+  --glass-shadow: none;
+
+  /* ── Typography ── */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* ── Transitions ── */
+  --transition-fast:   140ms;
+  --transition-normal: 220ms;
+  --transition-slow:   320ms;
+  /* Refined easings — smoother, less robotic */
+  --easing-smooth: cubic-bezier(0.4, 0, 0.2, 1);       /* Material standard */
+  --easing-out:    cubic-bezier(0, 0, 0.2, 1);          /* decelerate */
+  --easing-in:     cubic-bezier(0.4, 0, 1, 1);          /* accelerate */
+  --easing-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --easing-spring: cubic-bezier(0.22, 0.68, 0, 1.2);
+
+  /* ── Spacing ── */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* ── Border radius: softer, more generous ── */
+  --radius-xs: 3px;
+  --radius-sm: 5px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ── Shadow scale ── */
+  --shadow-xs: light-dark(
+    0 1px 2px oklch(0 0 0 / 0.04),
+    0 1px 2px oklch(0 0 0 / 0.25)
+  );
+  --shadow-sm: light-dark(
+    0 1px 3px oklch(0 0 0 / 0.06), 0 1px 2px oklch(0 0 0 / 0.04),
+    0 2px 4px oklch(0 0 0 / 0.35)
+  );
+  --shadow-md: light-dark(
+    0 4px 8px -2px oklch(0.30 0.02 260 / 0.08), 0 2px 4px -2px oklch(0 0 0 / 0.04),
+    0 4px 12px -2px oklch(0 0 0 / 0.40)
+  );
+  --shadow-lg: light-dark(
+    0 12px 28px -6px oklch(0.30 0.02 260 / 0.14), 0 4px 8px -4px oklch(0 0 0 / 0.06),
+    0 12px 28px -6px oklch(0 0 0 / 0.55)
+  );
+  --shadow-ring: 0 0 0 3px var(--accent-light);
+
+  /* ── Z-index ── */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-fixed: 300;
+  --z-modal: 400;
+  --z-tooltip: 500;
+}
+
+/* ============================================================
+   DARK MODE — html.dark is set pre-paint in index.html
+   color-scheme drives light-dark() resolution
+   ============================================================ */
+html.dark {
+  color-scheme: dark;
+}
+
+/* Body.dark-mode kept for backward compat with any legacy selectors */
+body.dark-mode {
+  color-scheme: dark;
+}
+
+/* View Transitions API — clean cross-fade of entire document on theme change.
+   When unsupported, toggleDarkMode falls back to the body-level transition. */
+@supports (view-transition-name: root) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 260ms;
+    animation-timing-function: var(--easing-smooth);
+    /* Force a plain cross-fade (no default blend-mode quirks) */
+    mix-blend-mode: normal;
+  }
+  ::view-transition-old(root) {
+    animation-name: vt-fade-out;
+  }
+  ::view-transition-new(root) {
+    animation-name: vt-fade-in;
+  }
+}
+
+@keyframes vt-fade-out {
+  to { opacity: 0; }
+}
+@keyframes vt-fade-in {
+  from { opacity: 0; }
+}
+
+/* While theme is swapping, suppress per-element color transitions so nothing
+   staggers underneath the cross-fade. Applied by toggleDarkMode() for ~280ms. */
+html.theme-swapping,
+html.theme-swapping *,
+html.theme-swapping *::before,
+html.theme-swapping *::after {
+  transition: none !important;
+}
+
+/* ============================================================
+   CSS RESET & BASE
+   ============================================================ */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv11', 'ss01', 'ss03';  /* Inter's refined letterforms */
+  font-variant-numeric: tabular-nums;              /* numbers align in tables */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Fallback transition for browsers without View Transitions support */
+  transition:
+    background-color var(--transition-normal) var(--easing-smooth),
+    color var(--transition-normal) var(--easing-smooth);
+}
+
+code, kbd, samp, pre {
+  font-family: var(--font-mono);
+  font-size: 0.875em;
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+h1 { font-size: 1.625rem; letter-spacing: -0.025em; font-weight: 700; }
+h2 { font-size: 1.25rem;  letter-spacing: -0.02em; }
+h3 { font-size: 1rem; }
+h4 { font-size: 0.875rem; font-weight: 600; letter-spacing: 0; }
+
+p {
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color var(--transition-fast) var(--easing-smooth);
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 7px 16px;
+  background: var(--accent-color);
+  color: light-dark(oklch(1 0 0), oklch(0.13 0.01 250));
+  font-weight: 600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.005em;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-xs);
+  transition:
+    background-color var(--transition-fast) var(--easing-smooth),
+    box-shadow var(--transition-fast) var(--easing-smooth),
+    transform var(--transition-fast) var(--easing-smooth);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:active {
+  transform: translateY(1px);
+  box-shadow: var(--shadow-xs);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 7px 16px;
+  background: var(--surface-color);
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 0.8125rem;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  transition:
+    background-color var(--transition-fast) var(--easing-smooth),
+    border-color var(--transition-fast) var(--easing-smooth),
+    color var(--transition-fast) var(--easing-smooth);
+}
+
+.btn-secondary:hover {
+  background: var(--hover-bg);
+  border-color: var(--border-strong);
+  color: var(--heading-color);
+}
+
+/* ============================================================
+   FORM ELEMENTS
+   ============================================================ */
+input, select, textarea {
+  font-family: inherit;
+  font-size: 0.8125rem;
+  color: var(--text-color);
+  background: var(--input-bg);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 7px 10px;
+  transition:
+    border-color var(--transition-fast) var(--easing-smooth),
+    box-shadow var(--transition-fast) var(--easing-smooth),
+    background-color var(--transition-fast) var(--easing-smooth);
+}
+
+input:hover:not(:focus), select:hover:not(:focus), textarea:hover:not(:focus) {
+  border-color: var(--border-strong);
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: var(--shadow-ring);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-subtle);
+}
+
+/* ============================================================
+   SCROLLBARS — thin, refined, hover-revealing
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: light-dark(
+    oklch(0.55 0.006 260 / 0.18),
+    oklch(0.75 0.006 250 / 0.14)
+  );
+  border-radius: var(--radius-full);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: background var(--transition-fast) var(--easing-smooth);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: light-dark(
+    oklch(0.50 0.01 260 / 0.45),
+    oklch(0.80 0.01 250 / 0.35)
+  );
+  background-clip: padding-box;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: light-dark(
+    oklch(0.55 0.006 260 / 0.22),
+    oklch(0.75 0.006 250 / 0.18)
+  ) transparent;
+}
+
+/* ============================================================
+   ACCESSIBILITY
+   ============================================================ */
+:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ============================================================
+   UTILITY CLASSES
+   ============================================================ */
+.glass-card {
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xs);
+}
+
+.gradient-text {
+  background: linear-gradient(
+    135deg,
+    var(--accent-color),
+    var(--highlight-color)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hairline divider */
+.hr {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--border-color) 20%,
+    var(--border-color) 80%,
+    transparent
+  );
+  border: 0;
+}
+
+/* Shimmer for loading — slower, more elegant */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--border-light) 25%,
+    var(--hover-bg) 50%,
+    var(--border-light) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.8s var(--easing-smooth) infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn var(--transition-normal) var(--easing-out);
+}
+
+/* ============================================================
+   APP CONTAINER
+   ============================================================ */
+#app {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* ============================================================
+   SELECTION
+   ============================================================ */
+::selection {
+  background: color-mix(in oklch, var(--accent-color) 28%, transparent);
+  color: var(--heading-color);
+}
