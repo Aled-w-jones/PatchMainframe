@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-03-02T09:25:52.799972",
-    "last_updated": "2026-03-02T09:43:02.035112",
+    "created": "2026-04-26T07:30:02.117538",
+    "last_updated": "2026-04-26T07:30:02.117542",
     "latest_version": "3.6",
-    "latest_patch": "3.6.2",
+    "latest_patch": "3.6.3",
     "total_versions": 11,
-    "total_patches": 89,
-    "total_bugs": 6096,
+    "total_patches": 90,
+    "total_bugs": 6110,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -29,7 +29,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-03-02T09:42:07.654932",
+      "last_scraped": "2026-04-26T07:28:48.030139",
       "patches": [
         {
           "version": "2.6.10",
@@ -1821,7 +1821,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-03-02T09:42:11.877904",
+      "last_scraped": "2026-04-26T07:28:53.235124",
       "patches": [
         {
           "version": "2.7.7",
@@ -3930,7 +3930,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-03-02T09:42:15.461865",
+      "last_scraped": "2026-04-26T07:28:58.078453",
       "patches": [
         {
           "version": "2.8.8",
@@ -5930,7 +5930,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-03-02T09:42:20.219674",
+      "last_scraped": "2026-04-26T07:29:05.688248",
       "patches": [
         {
           "version": "2.9.14",
@@ -9146,7 +9146,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-03-02T09:42:24.914068",
+      "last_scraped": "2026-04-26T07:29:12.866370",
       "patches": [
         {
           "version": "3.0.6",
@@ -11974,7 +11974,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-03-02T09:42:30.522396",
+      "last_scraped": "2026-04-26T07:29:21.878724",
       "patches": [
         {
           "version": "3.1.8",
@@ -15799,7 +15799,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-03-02T09:42:37.261305",
+      "last_scraped": "2026-04-26T07:29:31.596643",
       "patches": [
         {
           "version": "3.2.5",
@@ -19932,11 +19932,11 @@
     "3.3": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.3/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-3-issues-addressed.pdf",
-      "pdf_size": 653845,
+      "pdf_size": 693473,
       "latest_patch": "3.3.7",
-      "total_bugs": 589,
+      "total_bugs": 588,
       "total_patches": 8,
-      "last_scraped": "2026-03-02T09:42:43.981022",
+      "last_scraped": "2026-04-26T07:29:39.175236",
       "patches": [
         {
           "version": "3.3.7",
@@ -20001,11 +20001,6 @@
               "id": "BUG-000174682",
               "description": "States for non-versioned editing get created when the default version's state changes after the initial use in a non-versioned editing session.",
               "url": "https://support.esri.com/en-us/bug/BUG-000174682"
-            },
-            {
-              "id": "BUG-000174790",
-              "description": "A Geodatabase Exception occurred when modifying the labelEngine language for an annotation feature layer using ArcGIS Pro SDK 3.3.",
-              "url": "https://support.esri.com/en-us/bug/BUG-000174790"
             },
             {
               "id": "BUG-000175520",
@@ -20195,7 +20190,7 @@
             },
             {
               "id": "BUG-000171641",
-              "description": "When the Calculate Geometry geoprocessing tool is running on an enterprise geodatabase polygon feature class with attachments enabled and 65 or more records selected, the tool complete, but the values are applied to the wrong records.",
+              "description": "When the Calculate Geometry geoprocessing tool is running on an enterprise geodatabase polygon feature class with attachments enabled and 65 or more",
               "url": "https://support.esri.com/en-us/bug/BUG-000171641"
             },
             {
@@ -20597,7 +20592,7 @@
             },
             {
               "id": "BUG-000171779",
-              "description": "_ When the Realign tool is run on the LRS dataset created with a geographic coordinate system, the measure does not appear to be updating correctly, and the calibration point does not update.",
+              "description": "When the Realign tool is run on the LRS dataset created with a geographic coordinate system, the measure does not appear to be updating correctly, and the calibration point does not update.",
               "url": "https://support.esri.com/en-us/bug/BUG-000171779"
             },
             {
@@ -22940,7 +22935,7 @@
       "latest_patch": "3.4.5",
       "total_bugs": 513,
       "total_patches": 6,
-      "last_scraped": "2026-03-02T09:42:50.142790",
+      "last_scraped": "2026-04-26T07:29:46.459848",
       "patches": [
         {
           "version": "3.4.5",
@@ -25552,7 +25547,7 @@
       "latest_patch": "3.5.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-03-02T09:42:56.658012",
+      "last_scraped": "2026-04-26T07:29:53.779244",
       "patches": [
         {
           "version": "3.5.6",
@@ -28261,12 +28256,93 @@
     "3.6": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.6/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-6-issues-addressed.pdf",
-      "pdf_size": 625819,
-      "latest_patch": "3.6.2",
-      "total_bugs": 574,
-      "total_patches": 3,
-      "last_scraped": "2026-03-02T09:43:02.035038",
+      "pdf_size": 681442,
+      "latest_patch": "3.6.3",
+      "total_bugs": 589,
+      "total_patches": 4,
+      "last_scraped": "2026-04-26T07:30:02.117393",
       "patches": [
+        {
+          "version": "3.6.3",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000178288",
+              "description": "When using the Create Feature Class or Add To Feature Class option from the Locate tool results in ArcGIS Pro, the following error message is returned: \"Error adding location. Ensure you are signed in to ArcGIS Online and have geocoding privileges.\" This message is displayed even when the active portal is ArcGIS Online and the user has the required geocoding privileges.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178288"
+            },
+            {
+              "id": "BUG-000179480",
+              "description": "The Features button on the Error Inspector pane fails to select the underlying features returning the error on the map.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179480"
+            },
+            {
+              "id": "BUG-000179600",
+              "description": "The size tag of a dynamic text is not correctly handled in ArcGIS Pro layouts when the size is set to 0.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179600"
+            },
+            {
+              "id": "BUG-000179618",
+              "description": "All subtype names are displayed in the pop-up when selecting a feature that has relationships between a feature class (without subtypes) and a subtype group layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179618"
+            },
+            {
+              "id": "BUG-000180719",
+              "description": "The Reconstruct From Seeds tool hangs ArcGIS Pro when a boundary segment from a different parcel type is used to replace a deleted segment in a parcel.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180719"
+            },
+            {
+              "id": "BUG-000181112",
+              "description": "In ArcGIS Pro 3.6, the dropdown on the Template tab of the Paste Special dialog box does not reference the group layer names.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181112"
+            },
+            {
+              "id": "BUG-000181492",
+              "description": "In ArcGIS Pro, when running the data check on the 'Feature on Feature' check with the Evaluate Z parameter enabled to find intersects spatial relationships, any points on multiple 3D line features that intersect in 2D space but do not intersect in 3D space are returned as errors.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181492"
+            },
+            {
+              "id": "BUG-000181821",
+              "description": "The Workflow pane in ArcGIS Pro triggers SEVERE errors in the ArcGIS Server logs.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181821"
+            },
+            {
+              "id": "BUG-000182063",
+              "description": "Unable to access the items within a style class for a style in the details panel of the catalog view in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182063"
+            },
+            {
+              "id": "BUG-000182100",
+              "description": "Geocoding in ArcGIS Pro 3.6 to ArcGIS Pro 3.6.1 consistently returns Unmatched results, displaying error 499 for missing authentication token.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182100"
+            },
+            {
+              "id": "BUG-000182184",
+              "description": "ArcGIS Pro performs slowly while editing annotations and after the Modify Features window opens.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182184"
+            },
+            {
+              "id": "BUG-000182352",
+              "description": "Newly created parcel fabric records are intermittently not selected in Tasks when a project is created from a template that already contains Tasks and no map is open at project creation time.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182352"
+            },
+            {
+              "id": "BUG-000182510",
+              "description": "Editing editor tracking enabled data in ArcGIS Pro with Microsoft Entra Integrated authentication type for Microsoft Azure SQL shows the user as ESRI ANONYMOUS.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182510"
+            },
+            {
+              "id": "BUG-000182617",
+              "description": "_ The location-allocation solver chooses a suboptimal facility for a demand point when there are closer facilities available with capacity using the Maximize Capacitated Coverage problem type.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182617"
+            },
+            {
+              "id": "BUG-000183024",
+              "description": "When sharing a layer as a web layer, the Summary text box does not accept text spaces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183024"
+            }
+          ]
+        },
         {
           "version": "3.6.2",
           "cumulative": true,
@@ -28393,7 +28469,7 @@
             },
             {
               "id": "BUG-000181604",
-              "description": "After upgrading to ArcGIS Pro 3.6.0, the Display Options > Constraint > 'Linked map frame center and scale' setting for the secondary map frame stopped working. In ArcGIS Pro versions 3.5.0 and 3.5.5, when the primary map frame is activated within the layout and its extent is changed (pan/zoom), the secondary map frame updates simultaneously (center and scale). In ArcGIS Pro 3.6.0, the secondary map frame does not update and remains at its original extent, even when navigating the primary map frame.",
+              "description": "After upgrading to ArcGIS Pro 3.6.0, the Display Options > Constraint > 'Linked map frame center and scale' setting for the secondary map frame stopped working. In ArcGIS Pro versions 3.5.0 and 3.5.5, when the primary map frame is activated within the layout and its extent is changed (pan/zoom), the secondary map frame updates simultaneously (center and scale). In",
               "url": "https://support.esri.com/en-us/bug/BUG-000181604"
             },
             {
