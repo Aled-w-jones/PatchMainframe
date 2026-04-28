@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-04-27T08:26:13.272336",
-    "last_updated": "2026-04-27T08:26:13.272341",
+    "created": "2026-04-28T08:26:38.788445",
+    "last_updated": "2026-04-28T08:26:38.788449",
     "latest_version": "3.6",
-    "latest_patch": "3.6.3",
+    "latest_patch": "3.6.4",
     "total_versions": 11,
-    "total_patches": 90,
-    "total_bugs": 6110,
+    "total_patches": 91,
+    "total_bugs": 6111,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -29,7 +29,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-04-27T08:25:00.944923",
+      "last_scraped": "2026-04-28T08:25:24.711916",
       "patches": [
         {
           "version": "2.6.10",
@@ -1821,7 +1821,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-04-27T08:25:06.336940",
+      "last_scraped": "2026-04-28T08:25:30.386141",
       "patches": [
         {
           "version": "2.7.7",
@@ -3930,7 +3930,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-04-27T08:25:11.143306",
+      "last_scraped": "2026-04-28T08:25:35.911118",
       "patches": [
         {
           "version": "2.8.8",
@@ -5930,7 +5930,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-04-27T08:25:18.436534",
+      "last_scraped": "2026-04-28T08:25:43.767067",
       "patches": [
         {
           "version": "2.9.14",
@@ -9146,7 +9146,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-04-27T08:25:25.495802",
+      "last_scraped": "2026-04-28T08:25:51.151861",
       "patches": [
         {
           "version": "3.0.6",
@@ -11974,7 +11974,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-04-27T08:25:34.418653",
+      "last_scraped": "2026-04-28T08:26:00.023224",
       "patches": [
         {
           "version": "3.1.8",
@@ -15794,12 +15794,12 @@
     },
     "3.2": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.2/get-started/release-notes.htm",
-      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-2-issues-addressed.pdf",
+      "pdf_url": "https://links.esri.com/arcgis-pro-issues-addressed-32x",
       "pdf_size": 880287,
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-04-27T08:25:43.695085",
+      "last_scraped": "2026-04-28T08:26:09.582291",
       "patches": [
         {
           "version": "3.2.5",
@@ -19936,7 +19936,7 @@
       "latest_patch": "3.3.7",
       "total_bugs": 588,
       "total_patches": 8,
-      "last_scraped": "2026-04-27T08:25:51.131523",
+      "last_scraped": "2026-04-28T08:26:17.124793",
       "patches": [
         {
           "version": "3.3.7",
@@ -22930,12 +22930,12 @@
     },
     "3.4": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.4/get-started/release-notes.htm",
-      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-4-issues-addressed.pdf",
+      "pdf_url": "https://links.esri.com/arcgis-pro-issues-addressed-34x",
       "pdf_size": 580754,
       "latest_patch": "3.4.5",
       "total_bugs": 513,
       "total_patches": 6,
-      "last_scraped": "2026-04-27T08:25:58.365659",
+      "last_scraped": "2026-04-28T08:26:24.032468",
       "patches": [
         {
           "version": "3.4.5",
@@ -25547,7 +25547,7 @@
       "latest_patch": "3.5.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-04-27T08:26:05.371585",
+      "last_scraped": "2026-04-28T08:26:30.762733",
       "patches": [
         {
           "version": "3.5.6",
@@ -28256,12 +28256,23 @@
     "3.6": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.6/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-6-issues-addressed.pdf",
-      "pdf_size": 681442,
-      "latest_patch": "3.6.3",
-      "total_bugs": 589,
-      "total_patches": 4,
-      "last_scraped": "2026-04-27T08:26:13.272189",
+      "pdf_size": 684246,
+      "latest_patch": "3.6.4",
+      "total_bugs": 590,
+      "total_patches": 5,
+      "last_scraped": "2026-04-28T08:26:38.788312",
       "patches": [
+        {
+          "version": "3.6.4",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000184479",
+              "description": "ArcGIS Pro crashes when selecting link chart entities with default properties.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184479"
+            }
+          ]
+        },
         {
           "version": "3.6.3",
           "cumulative": true,
@@ -28469,7 +28480,7 @@
             },
             {
               "id": "BUG-000181604",
-              "description": "After upgrading to ArcGIS Pro 3.6.0, the Display Options > Constraint > 'Linked map frame center and scale' setting for the secondary map frame stopped working. In ArcGIS Pro versions 3.5.0 and 3.5.5, when the primary map frame is activated within the layout and its extent is changed (pan/zoom), the secondary map frame updates simultaneously (center and scale). In",
+              "description": "After upgrading to ArcGIS Pro 3.6.0, the Display Options > Constraint > 'Linked map frame center and scale' setting for the secondary map frame stopped working. In ArcGIS Pro versions 3.5.0 and 3.5.5, when the primary map frame is activated within the layout and its extent is changed (pan/zoom), the secondary map frame updates simultaneously (center and scale). In ArcGIS Pro 3.6.0, the secondary map frame does not update and remains at its original extent, even when navigating the primary map frame.",
               "url": "https://support.esri.com/en-us/bug/BUG-000181604"
             },
             {
@@ -29061,7 +29072,7 @@
             },
             {
               "id": "BUG-000156459",
-              "description": "In ArcGIS Pro, when using the Add Rasters To Mosaic Dataset tool, checking the Calculate Statistics check box automatically checks the Estimate Mosaic Dataset Statistics check box too. However, this functionality creates wrong statistics as only the statistics of the first raster are used for estimation.",
+              "description": "In ArcGIS Pro, when using the Add Rasters To Mosaic Dataset tool, checking the Calculate Statistics check box automatically checks the Estimate Mosaic Dataset Statistics check box too. However, this functionality creates wrong statistics as only the statistics of the first raster are used for estimation. Especially with elevation rasters, this could result in inappropriate statistics in case the added rasters display a strong variation regarding the elevation values.",
               "url": "https://support.esri.com/en-us/bug/BUG-000156459"
             },
             {
@@ -29351,7 +29362,7 @@
             },
             {
               "id": "BUG-000164268",
-              "description": "When creating a workspace and creating a mosaic dataset that is used as a source for the stereo model (or stereo visualization) with SOCET SET and",
+              "description": "When creating a workspace and creating a mosaic dataset that is used as a source for the stereo model (or stereo visualization) with SOCET SET and using the regional configuration Spanish - Spain, the mosaic is not created and returns several errors.",
               "url": "https://support.esri.com/en-us/bug/BUG-000164268"
             },
             {
@@ -31011,7 +31022,7 @@
             },
             {
               "id": "BUG-000178787",
-              "description": "When 'Enable color management' is toggled on, labels do not display on the map or layout in ArcGIS Pro.",
+              "description": "_ When 'Enable color management' is toggled on, labels do not display on the map or layout in ArcGIS Pro.",
               "url": "https://support.esri.com/en-us/bug/BUG-000178787"
             },
             {
