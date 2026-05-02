@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-05-01T08:12:29.227438",
-    "last_updated": "2026-05-01T08:12:29.227442",
+    "created": "2026-05-02T07:45:17.107593",
+    "last_updated": "2026-05-02T07:45:17.107597",
     "latest_version": "3.6",
     "latest_patch": "3.6.4",
     "total_versions": 11,
-    "total_patches": 91,
-    "total_bugs": 6111,
+    "total_patches": 92,
+    "total_bugs": 6121,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -29,7 +29,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-05-01T08:11:19.313174",
+      "last_scraped": "2026-05-02T07:44:04.495669",
       "patches": [
         {
           "version": "2.6.10",
@@ -1821,7 +1821,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-05-01T08:11:24.436496",
+      "last_scraped": "2026-05-02T07:44:09.530919",
       "patches": [
         {
           "version": "2.7.7",
@@ -3930,7 +3930,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-05-01T08:11:28.975653",
+      "last_scraped": "2026-05-02T07:44:14.385629",
       "patches": [
         {
           "version": "2.8.8",
@@ -5930,7 +5930,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-05-01T08:11:36.241688",
+      "last_scraped": "2026-05-02T07:44:21.696255",
       "patches": [
         {
           "version": "2.9.14",
@@ -9146,7 +9146,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-05-01T08:11:43.062577",
+      "last_scraped": "2026-05-02T07:44:28.740419",
       "patches": [
         {
           "version": "3.0.6",
@@ -11974,7 +11974,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-05-01T08:11:51.643992",
+      "last_scraped": "2026-05-02T07:44:37.742913",
       "patches": [
         {
           "version": "3.1.8",
@@ -15799,7 +15799,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-05-01T08:12:01.075607",
+      "last_scraped": "2026-05-02T07:44:47.535841",
       "patches": [
         {
           "version": "3.2.5",
@@ -19936,7 +19936,7 @@
       "latest_patch": "3.3.7",
       "total_bugs": 588,
       "total_patches": 8,
-      "last_scraped": "2026-05-01T08:12:08.240332",
+      "last_scraped": "2026-05-02T07:44:54.940134",
       "patches": [
         {
           "version": "3.3.7",
@@ -22935,7 +22935,7 @@
       "latest_patch": "3.4.5",
       "total_bugs": 513,
       "total_patches": 6,
-      "last_scraped": "2026-05-01T08:12:15.391658",
+      "last_scraped": "2026-05-02T07:45:01.978994",
       "patches": [
         {
           "version": "3.4.5",
@@ -25543,12 +25543,68 @@
     "3.5": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.5/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-5-issues-addressed.pdf",
-      "pdf_size": 623034,
-      "latest_patch": "3.5.6",
-      "total_bugs": 532,
-      "total_patches": 7,
-      "last_scraped": "2026-05-01T08:12:21.799757",
+      "pdf_size": 717797,
+      "latest_patch": "3.5.7",
+      "total_bugs": 542,
+      "total_patches": 8,
+      "last_scraped": "2026-05-02T07:45:09.124732",
       "patches": [
+        {
+          "version": "3.5.7",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000133848",
+              "description": "When using ArcPy, the SetMosaicDatasetProperties function does not change or update the geographic transformation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000133848"
+            },
+            {
+              "id": "BUG-000179618",
+              "description": "All subtype names are displayed in the pop-up when selecting a feature that has relationships between a feature class (without subtypes) and a subtype group layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179618"
+            },
+            {
+              "id": "BUG-000181611",
+              "description": "The Append Routes tool (Pipeline Referencing) has poor performance when run on a single record.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181611"
+            },
+            {
+              "id": "BUG-000181810",
+              "description": "In ArcGIS Pro, query layers for SDO Geometry feature classes do not draw _ when the 'Coordinates include Z values' box is checked in the New Query Layer window.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181810"
+            },
+            {
+              "id": "BUG-000181821",
+              "description": "The Workflow pane in ArcGIS Pro triggers SEVERE errors in the ArcGIS Server logs.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181821"
+            },
+            {
+              "id": "BUG-000182397",
+              "description": "Shared feature templates stored on a reference feature service return an empty definition when a German special character is present in the attribute properties of the feature template.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182397"
+            },
+            {
+              "id": "BUG-000182710",
+              "description": "The differences operation in ArcGIS REST APIs fails to return feature edits for utility network feature services stored in an Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182710"
+            },
+            {
+              "id": "BUG-000183226",
+              "description": "ArcGIS Pro cannot render Meta Raster Format (MRF) red-green-blue (RGB) images converted using the default JPEG brunsli compression.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183226"
+            },
+            {
+              "id": "BUG-000183292",
+              "description": "Prune Branch History with an empty date ignores referenced moments, resulting in incorrect rows being pruned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183292"
+            },
+            {
+              "id": "BUG-000183598",
+              "description": "Upgrading from Utility Network Version 6 to Utility Network Version 7 fails in SAP HANA.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183598"
+            }
+          ]
+        },
         {
           "version": "3.5.6",
           "cumulative": true,
@@ -28260,7 +28316,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-05-01T08:12:29.227289",
+      "last_scraped": "2026-05-02T07:45:17.107450",
       "patches": [
         {
           "version": "3.6.4",
