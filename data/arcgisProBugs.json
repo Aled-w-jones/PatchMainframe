@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-05-13T08:45:09.701398",
-    "last_updated": "2026-05-13T08:45:09.701402",
-    "latest_version": "3.6",
-    "latest_patch": "3.6.4",
-    "total_versions": 11,
-    "total_patches": 92,
-    "total_bugs": 6121,
+    "created": "2026-05-14T08:38:28.822802",
+    "last_updated": "2026-05-14T08:38:28.822806",
+    "latest_version": "3.7",
+    "latest_patch": "3.7.0",
+    "total_versions": 12,
+    "total_patches": 93,
+    "total_bugs": 6575,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -18,7 +18,8 @@
       "3.3",
       "3.4",
       "3.5",
-      "3.6"
+      "3.6",
+      "3.7"
     ]
   },
   "versions": {
@@ -29,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-05-13T08:43:59.131536",
+      "last_scraped": "2026-05-14T08:37:14.833352",
       "patches": [
         {
           "version": "2.6.10",
@@ -1821,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-05-13T08:44:04.371476",
+      "last_scraped": "2026-05-14T08:37:19.659119",
       "patches": [
         {
           "version": "2.7.7",
@@ -3930,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-05-13T08:44:08.723451",
+      "last_scraped": "2026-05-14T08:37:24.153897",
       "patches": [
         {
           "version": "2.8.8",
@@ -5930,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-05-13T08:44:15.671060",
+      "last_scraped": "2026-05-14T08:37:31.143532",
       "patches": [
         {
           "version": "2.9.14",
@@ -9146,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-05-13T08:44:22.724384",
+      "last_scraped": "2026-05-14T08:37:37.832975",
       "patches": [
         {
           "version": "3.0.6",
@@ -11974,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-05-13T08:44:31.238920",
+      "last_scraped": "2026-05-14T08:37:46.560954",
       "patches": [
         {
           "version": "3.1.8",
@@ -15799,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-05-13T08:44:40.811732",
+      "last_scraped": "2026-05-14T08:37:55.914591",
       "patches": [
         {
           "version": "3.2.5",
@@ -19936,7 +19937,7 @@
       "latest_patch": "3.3.7",
       "total_bugs": 588,
       "total_patches": 8,
-      "last_scraped": "2026-05-13T08:44:48.123957",
+      "last_scraped": "2026-05-14T08:38:03.070646",
       "patches": [
         {
           "version": "3.3.7",
@@ -22935,7 +22936,7 @@
       "latest_patch": "3.4.5",
       "total_bugs": 513,
       "total_patches": 6,
-      "last_scraped": "2026-05-13T08:44:55.082946",
+      "last_scraped": "2026-05-14T08:38:09.800903",
       "patches": [
         {
           "version": "3.4.5",
@@ -25547,7 +25548,7 @@
       "latest_patch": "3.5.7",
       "total_bugs": 542,
       "total_patches": 8,
-      "last_scraped": "2026-05-13T08:45:02.009374",
+      "last_scraped": "2026-05-14T08:38:16.334190",
       "patches": [
         {
           "version": "3.5.7",
@@ -28316,7 +28317,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-05-13T08:45:09.701258",
+      "last_scraped": "2026-05-14T08:38:23.612744",
       "patches": [
         {
           "version": "3.6.4",
@@ -31295,6 +31296,2293 @@
               "id": "BUG-000180338",
               "description": "In ArcGIS Pro, adding a vertex to a utility network line in a 3D scene also creates unintended vertices on other vertically aligned, parallel lines that share the same connectivity rules.",
               "url": "https://support.esri.com/en-us/bug/BUG-000180338"
+            }
+          ]
+        }
+      ]
+    },
+    "3.7": {
+      "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.7/get-started/release-notes.htm",
+      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-7-issues-addressed.pdf",
+      "pdf_size": 395936,
+      "latest_patch": "3.7.0",
+      "total_bugs": 454,
+      "total_patches": 1,
+      "last_scraped": "2026-05-14T08:38:28.822652",
+      "patches": [
+        {
+          "version": "3.7.0",
+          "cumulative": false,
+          "bugs": [
+            {
+              "id": "BUG-000093689",
+              "description": "The 'Sensitive' security classification of Federal Geographic Data Committee (FGDC) metadata, which existed in ArcMap 9.3, is missing in ArcGIS Desktop 10.x.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000093689"
+            },
+            {
+              "id": "BUG-000095782",
+              "description": "There is a code injection issue in the ArcGIS Pro metadata editor.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000095782"
+            },
+            {
+              "id": "BUG-000105361",
+              "description": "Performance issues in ArcGIS Pro when working with some complex Keyhole Markup Language Zipped (KMZ) layers.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000105361"
+            },
+            {
+              "id": "BUG-000106641",
+              "description": "ArcGIS Pro does not maintain the data frame display units when importing a map document from ArcMap.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000106641"
+            },
+            {
+              "id": "BUG-000111320",
+              "description": "A map exported from ArcGIS Pro does not retain its display units.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000111320"
+            },
+            {
+              "id": "BUG-000111688",
+              "description": "The Project Raster tool does not correctly transform data between UTM and State Plane when 'Nearest neighbor' is set as the Resampling Technique parameter.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000111688"
+            },
+            {
+              "id": "BUG-000112093",
+              "description": "Pop-up information for feature classes is not included when exporting to a Keyhole Markup Language (KML) file in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000112093"
+            },
+            {
+              "id": "BUG-000112941",
+              "description": "The list of layers for arcpy.da.SearchCursor() takes longer to load in ArcGIS Pro than in ArcMap.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000112941"
+            },
+            {
+              "id": "BUG-000116574",
+              "description": "The Points Along Line tool does not work for 3D point features along a 3D polyline if the 3D polyline is an exact vertical line.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000116574"
+            },
+            {
+              "id": "BUG-000117795",
+              "description": "Python results from the Write To Reviewer Table geoprocessing tool executed in a Python window fail and return the \"AttributeError: module 'arcpy' has no attribute 'Reviewer'.\" error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000117795"
+            },
+            {
+              "id": "BUG-000118430",
+              "description": "When cloning Python environments in the ArcGIS Pro Python Package Manager on a disconnected machine, the resulting environment is missing files.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000118430"
+            },
+            {
+              "id": "BUG-000121293",
+              "description": "In ArcGIS Pro, executing a Python script (PDFDocument.appendPages) to append multiple separate PDF files into one PDF file fails to include the layer and attribute information in the PDF file.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000121293"
+            },
+            {
+              "id": "BUG-000121353",
+              "description": "The pop-up on a query layer created from data stored in SQL Server does not honor the time filter set after being published as a web layer from ArcGIS Pro to an ArcGIS Enterprise environment.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000121353"
+            },
+            {
+              "id": "BUG-000121451",
+              "description": "Unexpected behavior occurs in the Copy Raster and Point To Raster tools in ArcMap 10.6.0, 10.7.1, and ArcGIS Pro 2.4 when the raster output name matches a standalone table present in the output file geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000121451"
+            },
+            {
+              "id": "BUG-000121873",
+              "description": "The functionality to fully expand or collapse a folder or geodatabase with the left and right arrows is disabled in the ArcGIS Pro Catalog pane.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000121873"
+            },
+            {
+              "id": "BUG-000126163",
+              "description": "Attribute values for previous records disappear when adding a new feature to the dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000126163"
+            },
+            {
+              "id": "BUG-000128016",
+              "description": "The PDF layers are not accessible in Adobe Acrobat Reader after updating the metadata using the Arcpy updateDocProperties() method.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000128016"
+            },
+            {
+              "id": "BUG-000129837",
+              "description": "The symbol's halo disappears when the symbol layer drawing is enabled, and when there is more than one symbol layer group.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000129837"
+            },
+            {
+              "id": "BUG-000132031",
+              "description": "A script exported from an ArcGIS Pro model containing a call to GenerateDesireLines and run with a concurrent license requires the Network Analyst license checkout that is not included in the exported script.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000132031"
+            },
+            {
+              "id": "BUG-000132974",
+              "description": "The spatial reference is not displayed on the query layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000132974"
+            },
+            {
+              "id": "BUG-000133769",
+              "description": "In ArcGIS Pro, the symbology for the web layers is corrupted when hiding a field used for symbology in the attribute table.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000133769"
+            },
+            {
+              "id": "BUG-000133848",
+              "description": "When using ArcPy, the SetMosaicDatasetProperties function does not change or update the geographic transformation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000133848"
+            },
+            {
+              "id": "BUG-000136458",
+              "description": "Using Layer Search in the Locate pane to identify features in a building layer within a local scene does not always pan or zoom to the features correctly.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000136458"
+            },
+            {
+              "id": "BUG-000139870",
+              "description": "The KML or KMZ file rotates 90 degrees when added to ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000139870"
+            },
+            {
+              "id": "BUG-000142595",
+              "description": "The Drive Time tool successfully removes overlaps in ArcMap, while the Generate Drive Time Trade Areas tool fails to do so in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000142595"
+            },
+            {
+              "id": "BUG-000144232",
+              "description": "Unable to select the Defined Interval method when classifying symbology if all raster values are negative.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000144232"
+            },
+            {
+              "id": "BUG-000145618",
+              "description": "When analyzing the mosaic dataset in ArcGIS Pro 2.9.0, 3.0.3, and 3.1.0 beta 3, the following error message, \"Error 70113: The mosaic dataset item references files that are inaccessible.\" is returned if the raster item in the mosaic dataset is from a file",
+              "url": "https://support.esri.com/en-us/bug/BUG-000145618"
+            },
+            {
+              "id": "BUG-000146512",
+              "description": "Unable to change the coordinate system when working with Web Map Service (WMS) layers in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000146512"
+            },
+            {
+              "id": "BUG-000146592",
+              "description": "While using a multipart color scheme for a raster image, the symbology in the Contents pane displays an incorrect color ramp when the Invert check box is checked in the Symbology pane.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000146592"
+            },
+            {
+              "id": "BUG-000146688",
+              "description": "Adding a .lyr file to a map or importing an MXD generates a warning in the layer properties; \"This layer comprise a subset of features. To access all features in the source data, clear the exclusion set from the Selection tab\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000146688"
+            },
+            {
+              "id": "BUG-000147610",
+              "description": "In ArcGIS Pro 2.9.1 and 2.9.2, the .lock files in a file geodatabase caused by a cursor are not deleted after running a Python script and deleting the variables.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000147610"
+            },
+            {
+              "id": "BUG-000147955",
+              "description": "The Firefly symbology flickers when panning around the 3D map in ArcGIS Pro and in the output animation video, which makes the symbols appear inconsistently.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000147955"
+            },
+            {
+              "id": "BUG-000148262",
+              "description": "The bilinear interpolation method does not calculate correctly in the Extract Multi Values to Points tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000148262"
+            },
+            {
+              "id": "BUG-000149017",
+              "description": "In ArcGIS Pro, running the Make Feature Layer tool in ModelBuilder multiple times outputs incorrect layer names.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000149017"
+            },
+            {
+              "id": "BUG-000149489",
+              "description": "Unable to change the length of a linear feature after running the Generalize geoprocessing tool with the Smooth method.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000149489"
+            },
+            {
+              "id": "BUG-000149682",
+              "description": "The custom default option for the ground elevation surface is not used when converting a map to a local scene.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000149682"
+            },
+            {
+              "id": "BUG-000151188",
+              "description": "The Export Report To PDF tool’s Python script does not include pictures when running the code outside of the ArcGIS Pro 3.0 environment.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000151188"
+            },
+            {
+              "id": "BUG-000151239",
+              "description": "When the cameras table is specified before the frames table in the digital aerial workflow, the 999999 error message is returned during the creation of the image collection.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000151239"
+            },
+            {
+              "id": "BUG-000152387",
+              "description": "The layout does not preserve the curved labels when printing using the ArcGIS Server print services.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000152387"
+            },
+            {
+              "id": "BUG-000152407",
+              "description": "In ArcGIS Pro 3.0, when using the Import 3D Files tool with COLLAborative Design Activity (.dae) files as 3D models, the output multipatch feature class does not preserve the texture of the 3D models.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000152407"
+            },
+            {
+              "id": "BUG-000152872",
+              "description": "Minimized symbol classes for headings are expanded after moving the heading.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000152872"
+            },
+            {
+              "id": "BUG-000153012",
+              "description": "Creating offline areas with vector tile basemaps fails in most situations and returns a general geoprocessing error (BasemapAT Offline Vector Tile).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000153012"
+            },
+            {
+              "id": "BUG-000154471",
+              "description": "The Summarize Elevation tool does not return error messages upon failure.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000154471"
+            },
+            {
+              "id": "BUG-000154851",
+              "description": "Unable to run the Select Layer By Location tool on mosaic layers or raster datasets in ArcGIS Pro 3.x, returning \"Error 999999\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000154851"
+            },
+            {
+              "id": "BUG-000154859",
+              "description": "The Dashed Black Outline symbology in ArcGIS Pro does not honor the selection tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000154859"
+            },
+            {
+              "id": "BUG-000155563",
+              "description": "The Keyhole Markup Zipped (KMZ) file generated from ArcGIS Server using Create Network Link does not display when added to ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000155563"
+            },
+            {
+              "id": "BUG-000155839",
+              "description": "The Rebuild Indexes geoprocessing tool fails with the following error message, \"Could not rebuild indexes for dataset. Object has no schema locks.\" on an attributed relationship class.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000155839"
+            },
+            {
+              "id": "BUG-000156574",
+              "description": "A custom Cached Elevation Image Service is named incorrectly in ArcGIS Pro scenes since ArcGIS Pro version 3.0.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000156574"
+            },
+            {
+              "id": "BUG-000157394",
+              "description": "Mobile map packages created in ArcGIS Pro 2.7.0 or later versions do not honor the Join symbol layer drawing option when displaying the .mmpk file in ArcGIS Field Maps.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000157394"
+            },
+            {
+              "id": "BUG-000157650",
+              "description": "In ArcGIS Pro, there is no option to create a single temporary contour line with the Contour tool similar to ArcMap.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000157650"
+            },
+            {
+              "id": "BUG-000157944",
+              "description": "When running the Append (Data Management) tool and selecting the 'Use the field map to reconcile field differences' parameter, the tool does not function as expected if the fields do not match, thus defeating the purpose of field mapping.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000157944"
+            },
+            {
+              "id": "BUG-000158152",
+              "description": "When using a shape marker fill (Font: ESRI Climate & Precipitation; Symbol: 85) for a polygon, the symbology shows in ArcGIS Pro but is not visible in the exported PDF.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000158152"
+            },
+            {
+              "id": "BUG-000158323",
+              "description": "Unable to create a graph in ArcGIS Pro using the Stack Profile tool, but it works in the ArcMap or ArcScene Desktop 10.x applications.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000158323"
+            },
+            {
+              "id": "BUG-000158462",
+              "description": "The Extract by Circle tool returns an unexpected raster output under certain conditions in ArcGIS Pro 3.1.1, 3.1, 2.9.5, and 3.0.4, or ArcMap 10.8.1 and 10.7.1. However, the tool works as expected in ArcMap 10.4.1 and 10.6.1.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000158462"
+            },
+            {
+              "id": "BUG-000158887",
+              "description": "When logging in to a PC with a username including Japanese characters, ArcGIS Pro requires signing in every time, even though the 'Sign in automatically' option is checked.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000158887"
+            },
+            {
+              "id": "BUG-000159469",
+              "description": "The Validate Topology geoprocessing tool fails to validate a topology inside a mobile geodatabase when there is a feature length smaller than the x,y tolerance of the dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000159469"
+            },
+            {
+              "id": "BUG-000159896",
+              "description": "The Freehand tool does not work correctly when the map is zoomed to a scale of 1:1 or lower.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000159896"
+            },
+            {
+              "id": "BUG-000160603",
+              "description": "When logging in to a PC with a username including Japanese characters, the 'Authorize ArcGIS Pro to work offline' check box is disabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000160603"
+            },
+            {
+              "id": "BUG-000160781",
+              "description": "In ArcGIS Pro, the polyline vertex display angle changes intermittently for an exported PDF file when the map scale is changed.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000160781"
+            },
+            {
+              "id": "BUG-000160816",
+              "description": "The Path Net Distance in the measure tool does not match the distance from the start to endpoints in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000160816"
+            },
+            {
+              "id": "BUG-000161097",
+              "description": "In ArcGIS Pro 3.1.2, the Reclassify tool does not retain the set values in the reclassification table when clicking outside the table after entering a value.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000161097"
+            },
+            {
+              "id": "BUG-000161461",
+              "description": "In ArcGIS Pro, the unit string in the 'Vary symbology by attribute' settings is confusing and incorrect.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000161461"
+            },
+            {
+              "id": "BUG-000161632",
+              "description": "The EditOperation.Create() or Delete() method returns the error message, \"Edit Operation Failed\" when creating or deleting utility network associations in ArcGIS Pro SDK 3.1.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000161632"
+            },
+            {
+              "id": "BUG-000161657",
+              "description": "Running a Digital Asset Exchange file (DAE) in the Import 3D Files tool returns the \"Error 999998: Unexpected Error\" error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000161657"
+            },
+            {
+              "id": "BUG-000161780",
+              "description": "When logging in to a machine with a username including Turkish characters such as Ö, Ç, and Ş, the 'Authorize ArcGIS Pro to work offline' check box is disabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000161780"
+            },
+            {
+              "id": "BUG-000162337",
+              "description": "When clicking the Show Selected Records button, the error message \"ERROR: code:400, Unable to complete operation.\" is returned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000162337"
+            },
+            {
+              "id": "BUG-000162404",
+              "description": "When the color management setting is enabled in ArcGIS Pro, the symbol color is shown differently from ArcMap while maintaining the same CMYK values.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000162404"
+            },
+            {
+              "id": "BUG-000162418",
+              "description": "When updating a bookmark extend in the layout view, the extent is not retained when Zoom To is clicked.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000162418"
+            },
+            {
+              "id": "BUG-000162911",
+              "description": "The ArcGIS Pro SDK CoreHost app crashes with no error when creating a new file Geodatabase() object after Host.Initialize(Host.LicenseProductCode.ArcGISServer) is used to initialize.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000162911"
+            },
+            {
+              "id": "BUG-000163113",
+              "description": "3D objects with edges symbolized with a solid color display transparent in a layout when zoomed in within an inactive map frame.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000163113"
+            },
+            {
+              "id": "BUG-000163511",
+              "description": "In ArcGIS Pro, an error is returned when the Explore Images tool is used to view images with Japanese characters in the location path from an oriented imagery dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000163511"
+            },
+            {
+              "id": "BUG-000163712",
+              "description": "When applying image sizes with large values for width and height, the process of map export is not complete without any error message, and the map export output is created successfully.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000163712"
+            },
+            {
+              "id": "BUG-000164114",
+              "description": "The Focal Statistics geoprocessing tool fails if a kernel file contains a space in the file path name.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000164114"
+            },
+            {
+              "id": "BUG-000164372",
+              "description": "The streamline tool in ArcGIS Pro 3.2 does not generate the requested stream tolerance.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000164372"
+            },
+            {
+              "id": "BUG-000164461",
+              "description": "The Export Mosaic Dataset Paths geoprocessing tool returns the error 999999 when the WHERE clause in a mosaic dataset does not match.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000164461"
+            },
+            {
+              "id": "BUG-000164481",
+              "description": "Unable to get the z-values from the view of point data on maps.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000164481"
+            },
+            {
+              "id": "BUG-000164736",
+              "description": "In the ArcGIS Business Analyst Pro infographic editor, clicking the increase or decrease padding value button of the comparison table in the template with grids repeatedly (10 to 12 fast clicks) causes the padding value to increase or decrease continuousl",
+              "url": "https://support.esri.com/en-us/bug/BUG-000164736"
+            },
+            {
+              "id": "BUG-000165209",
+              "description": "The Microsoft.Extensions.Logging.Abstractions version 2.0.0 dynamic-link library (DLL) is outdated in ArcGIS Pro 3.2, causing the exception \"System.IO.FileNotFoundException\" to be returned while doing dependency injection in an ArcGIS Pro SDK add-in.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000165209"
+            },
+            {
+              "id": "BUG-000165689",
+              "description": "ArcGIS Pro does not honor the dynamic range adjustment (DRA) setting for the ArcGIS Online multidimensional layer saved with the DRA setting. It draws everything with the symbol for zero ('0').",
+              "url": "https://support.esri.com/en-us/bug/BUG-000165689"
+            },
+            {
+              "id": "BUG-000165840",
+              "description": "The supplemental page's dynamic text for the Date Exported layout tag is not updated after being exported as a PDF report in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000165840"
+            },
+            {
+              "id": "BUG-000166550",
+              "description": "The Layer To KML tool in ArcGIS Pro does not honor the Extent properties in the tool output.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000166550"
+            },
+            {
+              "id": "BUG-000166839",
+              "description": "Running the Calculate Field tool on a selection set layer created from a feature service and with an added join results in poor performance.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000166839"
+            },
+            {
+              "id": "BUG-000166896",
+              "description": "Field types of short, big integer, and float fields in an OGC Web Feature Service (WFS) are not maintained when consumed in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000166896"
+            },
+            {
+              "id": "BUG-000166941",
+              "description": "The Generate Parcel Fabric Links tool does not generate any results when From Date is set to a value prior to the gdb from date value. _ _",
+              "url": "https://support.esri.com/en-us/bug/BUG-000166941"
+            },
+            {
+              "id": "BUG-000167098",
+              "description": "A pop-up title containing text within angle brackets (<>) is not displayed in the Configure Pop-ups pane.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167098"
+            },
+            {
+              "id": "BUG-000167269",
+              "description": "The Python code for creating a query layer in ArcGIS Pro only returns z- values if a map is open in the project, despite z-values being enabled in the script.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167269"
+            },
+            {
+              "id": "BUG-000167617",
+              "description": "Unable to view a clickable link in pop-ups for a file name containing an ampersand (&) in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167617"
+            },
+            {
+              "id": "BUG-000168207",
+              "description": "The Upload Service Definition geoprocessing tool returns the administration URL rather than the services URL for the derived outputs of the REST URL and SOAP URL when uploading to the ArcGIS Enterprise portal.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168207"
+            },
+            {
+              "id": "BUG-000168208",
+              "description": "The Build Pyramids tool fails and returns the following error message, \"ERROR 999999: Something unexpected caused the tool to fail\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168208"
+            },
+            {
+              "id": "BUG-000168395",
+              "description": "The preview anchor for the preset template does not show when a containment association is configured.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168395"
+            },
+            {
+              "id": "BUG-000168399",
+              "description": "In ArcGIS Pro ModelBuilder, join fields are missing when the Add Spatial Join and Export Features tools are run in succession.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168399"
+            },
+            {
+              "id": "BUG-000168684",
+              "description": "Services published via ArcGIS Service Definition file stores such as C:\\Users\\abc\\AppData….0020\\SDDraft.msd is in original project path even after the source of the project is Network Path \\\\supt0020606\\newfolder\\Project\\ABC.aprx.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168684"
+            },
+            {
+              "id": "BUG-000168778",
+              "description": "A multidimensional image layer loads with the correct symbology for a moment, then switches to grayscale.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168778"
+            },
+            {
+              "id": "BUG-000168976",
+              "description": "The CoordinateSystemSetter transformer in ArcGIS Data Interoperability returns the error message, “CS-MAP: ESRIWKT|GDA2020 MGA Zon is not _ _ a valid key name”.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000168976"
+            },
+            {
+              "id": "BUG-000169384",
+              "description": "Geoprocessing tools should remember the last location used for input or output parameters.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169384"
+            },
+            {
+              "id": "BUG-000169591",
+              "description": "The 'Connect dynamic elements' option is missing when copying a picture from the custom report template in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169591"
+            },
+            {
+              "id": "BUG-000169616",
+              "description": "The ArcGIS Pro Attribute Pane's Pop Up Display Cuts off Field Values With a Long Text Length",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169616"
+            },
+            {
+              "id": "BUG-000169865",
+              "description": "The ArcGIS Pro SDK for .NET construction tool does not create the expected connections for a utility network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169865"
+            },
+            {
+              "id": "BUG-000169871",
+              "description": "The Rematch Addresses tool does not update the values for a geocoded feature class in an Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169871"
+            },
+            {
+              "id": "BUG-000170047",
+              "description": "In ArcGIS Pro with a Concurrent Use license, the Find Highest or Lowest Point geoprocessing tool executes without the Spatial Analyst extension enabled and automatically activates the extension after execution.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170047"
+            },
+            {
+              "id": "BUG-000170101",
+              "description": "In ArcGIS Pro, when features with rotation are symbolized using the unique values or graduated colors symbology and exported as a KMZ file, the output file displays incorrect rotation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170101"
+            },
+            {
+              "id": "BUG-000170250",
+              "description": "In ArcGIS Pro, after renaming the map from the Contents pane, the Input Map model element of a tool in ModelBuilder does not automatically pick the newly renamed map as the input.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170250"
+            },
+            {
+              "id": "BUG-000170569",
+              "description": "When multiple features from layers participating in a trace network or utility network and those not participating in a trace network or utility network are moved using the Move tool, only features participating in the network move. Other features stay in",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170569"
+            },
+            {
+              "id": "BUG-000170794",
+              "description": "The Print Map option does not print the map to the visible extent in ArcGIS Pro 3.3.1.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170794"
+            },
+            {
+              "id": "BUG-000171489",
+              "description": "The ArcGIS World Geocoding Service returns inconsistent results for the regions of Maitland and Newcastle, New South Wales in Australia.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171489"
+            },
+            {
+              "id": "BUG-000171599",
+              "description": "The Merge Multidimensional Rasters tool leaves locks on the source datasets and returns Error 999999.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171599"
+            },
+            {
+              "id": "BUG-000171784",
+              "description": "Clearing the background transparency in the Find Subnetworks pane resets the expression associated with the symbology.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171784"
+            },
+            {
+              "id": "BUG-000172408",
+              "description": "The hosted feature service reprojects on the fly using the default transformation instead of the transformation applied in the map properties.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000172408"
+            },
+            {
+              "id": "BUG-000172583",
+              "description": "When exporting a raster to a cloud store in ArcGIS Pro using the Export Raster geoprocessing tool, the Export button is greyed out.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000172583"
+            },
+            {
+              "id": "BUG-000172650",
+              "description": "The Manage Feature Bin Cache tool fails silently when run as a Python command.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000172650"
+            },
+            {
+              "id": "BUG-000173007",
+              "description": "An incorrect ERROR 999999 is returned for Change Privileges (arcpy.management.ChangePrivileges), providing an invalid user or role name.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173007"
+            },
+            {
+              "id": "BUG-000173155",
+              "description": "Unable to select or identify a subtype group layer point feature in ArcGIS Pro at a large scale when a reference scale is set on the map.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173155"
+            },
+            {
+              "id": "BUG-000173268",
+              "description": "SQL Server enterprise geodatabase requires multiple upgrade attempts after initially failing with the \"Arithmetic overflow error converting expression to data type\" error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173268"
+            },
+            {
+              "id": "BUG-000173440",
+              "description": "When running the Generate Intersections (Location Referencing) tool with the ArcGIS Roads and Highways data, the Output Details File location path is not returned to ArcGIS Pro as described in the documentation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173440"
+            },
+            {
+              "id": "BUG-000173471",
+              "description": "Topology: Remove Overlap fix for completely overlapping polygons fails with no error/warning",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173471"
+            },
+            {
+              "id": "BUG-000173679",
+              "description": "The Delete (Data Management) tool deletes a folder permanently even though the documentation states folders will be moved to the recycle bin.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173679"
+            },
+            {
+              "id": "BUG-000173783",
+              "description": "When exporting a map by printing to PDF, the heat map symbology is incorrect.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173783"
+            },
+            {
+              "id": "BUG-000174010",
+              "description": "After using the Reassign tool to transfer a partial line segment to another line method, the tool generated incorrect starting measurements for the new route.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174010"
+            },
+            {
+              "id": "BUG-000174101",
+              "description": "In the ArcGIS Image Analyst extension, clicking the 'Set as focus image Off' button causes ArcGIS Pro to crash when working with some GeoEye-1 images.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174101"
+            },
+            {
+              "id": "BUG-000174200",
+              "description": "The error message \"Cannot connect to datasource\" is returned when opening the Manage Versions pane after adding a 64-character description to a branch version and when there are 1,300 branch versions in the Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174200"
+            },
+            {
+              "id": "BUG-000174219",
+              "description": "The update parameter in the Append tool creates duplicate records with the selected features.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174219"
+            },
+            {
+              "id": "BUG-000174237",
+              "description": "Changing the processing template from the default 'Natural Color with DRA' to 'None' for the Sentinel-2 Views Esri layer crashes ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174237"
+            },
+            {
+              "id": "BUG-000174295",
+              "description": "The default print service of ArcGIS Online fails to print text graphics positioned at the upper edge of the print area.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174295"
+            },
+            {
+              "id": "BUG-000174452",
+              "description": "ArcGIS Pro does not allow opening hyperlinks in pop-ups pointing to .dxf files.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174452"
+            },
+            {
+              "id": "BUG-000174631",
+              "description": "Entering a line break into an attribute table cell value using Shift+Enter works for the first edit but not for subsequent edits.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174631"
+            },
+            {
+              "id": "BUG-000174864",
+              "description": "3D objects in the local scene cannot be identified using Explore when any transparency value greater than 0% is set.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174864"
+            },
+            {
+              "id": "BUG-000174921",
+              "description": "The Reclassify tool is disabled in ModelBuilder when the Cell Size parameter under the Environments tab references a raster layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174921"
+            },
+            {
+              "id": "BUG-000174939",
+              "description": "ArcGIS Indoors Spaces and ArcGIS Indoors Maps are available under 'Organization extensions' in ArcGIS Online. However, it does not display under ArcGIS Pro > Settings > Licensing > ArcGIS Pro Extensions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174939"
+            },
+            {
+              "id": "BUG-000175077",
+              "description": "The interactive selection tool does not accurately select all the line symbols within an ArcGIS Pro project when zooming out.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175077"
+            },
+            {
+              "id": "BUG-000175097",
+              "description": "ArcGIS Pro crashes when rearranging fields in a Utility Network feature service after modifying field visibility.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175097"
+            },
+            {
+              "id": "BUG-000175207",
+              "description": "The Error Inspector duplicates the name of the layer when the feature classes and the topology are created in the same session as validating the data and viewing the errors.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175207"
+            },
+            {
+              "id": "BUG-000175319",
+              "description": "When editing a parcel fabric in ArcGIS Pro, growth in the local display cache leads to the map displaying artifacts due to the editing tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175319"
+            },
+            {
+              "id": "BUG-000175673",
+              "description": "ArcGIS Pro fails to complete the export to PDF operation for a map series configured with Enhanced Metafile (EMF) files.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175673"
+            },
+            {
+              "id": "BUG-000175726",
+              "description": "In ArcGIS Pro, using the Download Rasters tool on an image service is constrained by the service's maximum size. Setting a small extent on the selection feature and environment without enabling 'Clipping Using Selection Feature' bypasses the image service",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175726"
+            },
+            {
+              "id": "BUG-000175773",
+              "description": "The Export To CAD tool shifts the annotation features when the annotations have multiple lines.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175773"
+            },
+            {
+              "id": "BUG-000175803",
+              "description": "In ArcGIS Pro, the Export Mosaic Dataset Geometry tool fails and returns the error message \"Error 999999: An unexpected issue has occurred\" when exporting the boundary and attempting to overwrite an existing feature class in a geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000175803"
+            },
+            {
+              "id": "BUG-000176011",
+              "description": "ArcGIS Pro crashes when the Geocode Addresses tool is canceled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176011"
+            },
+            {
+              "id": "BUG-000176067",
+              "description": "Having an apostrophe (') as part of the .aprx path gives an error when trying to open a notebook.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176067"
+            },
+            {
+              "id": "BUG-000176132",
+              "description": "The Calculate Metrics tool calculates an incorrect width value when the data is projected.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176132"
+            },
+            {
+              "id": "BUG-000176314",
+              "description": "The Append Routes tool fails with the message \"Unable to find corresponding centerlines.\" when a utility network is configured and the route ID is different from the route ID on the existing centerline(s).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176314"
+            },
+            {
+              "id": "BUG-000176493",
+              "description": "The Build Multidimensional Info (Multidimension) tool (arcpy.md.BuildMultidimensionalInfo) does not support new field types such as Date only, Time only, and Timestamp offset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176493"
+            },
+            {
+              "id": "BUG-000176709",
+              "description": "ArcGIS Pro allows the publication of a service that includes two editor tracking enabled feature classes using different time zones (one using UTC and the other using the database time) to ArcGIS Enterprise without returning an error or a warning.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176709"
+            },
+            {
+              "id": "BUG-000176908",
+              "description": "ArcGIS Enterprise 11.x image service raster info thumbnails are returning as a black image.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176908"
+            },
+            {
+              "id": "BUG-000176910",
+              "description": "ExtractPackage returns error 999999 when the user does not have permission to write to the output folder.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176910"
+            },
+            {
+              "id": "BUG-000176969",
+              "description": "Unable to save edits made with the Pixel Editor tool on classified TIFF files in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176969"
+            },
+            {
+              "id": "BUG-000177227",
+              "description": "Incorrect error message on the Buffer geoprocessing tool when overwriting output is allowed and a lock exists on the output feature class.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177227"
+            },
+            {
+              "id": "BUG-000177254",
+              "description": "3DTiles data using EXT meshopt compression do not display in ArcGIS _ _ Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177254"
+            },
+            {
+              "id": "BUG-000177309",
+              "description": "The uncompressed size of a raster is not correctly shown for a Cloud Raster Format (CRF), and instead, the storage size is displayed.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177309"
+            },
+            {
+              "id": "BUG-000177353",
+              "description": "The Convert LAS tool returns an unspecified error or crashes when a Cloud Optimized Point Cloud (COPC) LAZ file is processed in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177353"
+            },
+            {
+              "id": "BUG-000177355",
+              "description": "In ModelBuilder, the dialog box pop-ups for some tools open outside the monitor's pixel area range.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177355"
+            },
+            {
+              "id": "BUG-000177363",
+              "description": "Raster functions are not displayed in the raster function 'History pane' after reopening a saved ArcGIS Pro project.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177363"
+            },
+            {
+              "id": "BUG-000177370",
+              "description": "An issue was identified with the Manage Tile Cache tool using the Shaded Relief symbology in ArcGIS Pro 3.5.1.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177370"
+            },
+            {
+              "id": "BUG-000177390",
+              "description": "The Create Accuracy Assessment Points geoprocessing tool fails to run on a classified raster output in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177390"
+            },
+            {
+              "id": "BUG-000177429",
+              "description": "The Append tool populates an unexpected value in the field when a default domain value is assigned to a subtype and is the first record in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177429"
+            },
+            {
+              "id": "BUG-000177521",
+              "description": "Creating a mobile map package in ArcGIS Pro returns Error 999999 when a CAD file with an annotation layer is present in the map.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177521"
+            },
+            {
+              "id": "BUG-000177595",
+              "description": "The EditOperation.Create(RelationshipDescription) method returns an abort operation error when attempting to create a relationship between two features.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177595"
+            },
+            {
+              "id": "BUG-000177608",
+              "description": "Unable to drag a layer below another nested group in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177608"
+            },
+            {
+              "id": "BUG-000177701",
+              "description": "ArcGIS Pro 3.5.2 does not recognize saved credentials for a Web Map Tile Service (WMTS) server connection.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177701"
+            },
+            {
+              "id": "BUG-000177730",
+              "description": "Running the Select By Location tool with layers from a feature service performs very slowly.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177730"
+            },
+            {
+              "id": "BUG-000177754",
+              "description": "In ArcGIS Pro 3.5.2, the Space Time Kernel Density tool does not honor the input coordinate system or the coordinate system set in the Environments setting.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177754"
+            },
+            {
+              "id": "BUG-000177883",
+              "description": "When opening a web map in ArcGIS Pro, features only partially display when zooming and panning.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177883"
+            },
+            {
+              "id": "BUG-000177908",
+              "description": "Adding a geocoding service via path runs into an invalid path error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177908"
+            },
+            {
+              "id": "BUG-000178036",
+              "description": "Adjustment to a lower value is not supported for Temporal Profile, Time Binning Options, and Interval Size within the Multidimensional ribbon.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178036"
+            },
+            {
+              "id": "BUG-000178111",
+              "description": "The \"ERROR 999999: Something unexpected caused the tool to fail. Contact Esri Technical Support\" error message is returned when registering a view with an enterprise geodatabase in Oracle if the view references data from a feature class created by a diffe",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178111"
+            },
+            {
+              "id": "BUG-000178130",
+              "description": "When exporting water temperature multidimensional raster data from the temporal profile chart to CSV format in ArcGIS Pro, only the first location displays results.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178130"
+            },
+            {
+              "id": "BUG-000178140",
+              "description": "Double-clicking the Tools parameter in ModelBuilder does not open the tool after dragging and dropping it from the Tools list on the ribbon.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178140"
+            },
+            {
+              "id": "BUG-000178141",
+              "description": "ModelBuilder automatically applies Auto Layout when making changes to the parameters of a tool within a group.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178141"
+            },
+            {
+              "id": "BUG-000178206",
+              "description": "When editing utility network data in a 3D environment, the Edit Vertices toolbar does not include the disconnect or stretch functionalities.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178206"
+            },
+            {
+              "id": "BUG-000178272",
+              "description": "The ArcGIS Pro Append tool fails to run and the error message \"WARNING 000595\" is returned when a CSV file is the input dataset and a hosted feature layer is the target dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178272"
+            },
+            {
+              "id": "BUG-000178288",
+              "description": "When using the Create Feature Class or Add To Feature Class option from the Locate tool results in ArcGIS Pro, the following error message is returned: \"Error adding location. Ensure you are signed in to ArcGIS Online and have geocoding privileges.\" This",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178288"
+            },
+            {
+              "id": "BUG-000178308",
+              "description": "The generated PDF files contain incorrect line endings in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178308"
+            },
+            {
+              "id": "BUG-000178428",
+              "description": "The World Countries Gen, World Populated Places, World Rivers, and _ _ _ _ _ World Water Bodies feature classes in the ArcGIS Production Mapping _ _ 3.5 product files do not contain data for the world.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178428"
+            },
+            {
+              "id": "BUG-000178515",
+              "description": "Running a Python script from 'Project 1' to delete a map in 'Project 2' inadvertently deletes the map of 'Project 1' instead.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178515"
+            },
+            {
+              "id": "BUG-000178517",
+              "description": "The ArcPy script for publishing a web layer from ArcGIS Pro fails and returns the error message \"Error 999999\" if the metadata contains the special symbol '§', but succeeds with manual publishing through the ribbon.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178517"
+            },
+            {
+              "id": "BUG-000178620",
+              "description": "Incomplete watershed outputs are returned when a big integer field type is calculated to a double field type and used as the pour point field in the Watershed tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178620"
+            },
+            {
+              "id": "BUG-000178628",
+              "description": "The Retire Route tool displays a warning indicating a Linear Referencing System (LRS) feature service may introduce gaps into the network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178628"
+            },
+            {
+              "id": "BUG-000178671",
+              "description": "The PDF exports of layouts in ArcGIS Pro add anchors to some Scalable Vector Graphics (SVG) icons, causing the icon to appear distorted compared to how the icons are displayed in Adobe Illustrator or in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178671"
+            },
+            {
+              "id": "BUG-000178681",
+              "description": "Exporting a surface profile as a table from ArcGIS Pro results in an incorrectly formatted CSV file when the surface profile contains multiple surfaces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178681"
+            },
+            {
+              "id": "BUG-000178735",
+              "description": "The text format is not retained when text is added from a reference table using the Table Attribute value under the Dynamic Text option.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178735"
+            },
+            {
+              "id": "BUG-000178773",
+              "description": "The Train Deep Learning Model tool does not utilize all GPUs available for U-net and Mask R-CNN architectures.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178773"
+            },
+            {
+              "id": "BUG-000178779",
+              "description": "Opening the Layer Properties dialog box of a 50 GB CRF raster file in ArcGIS Pro takes almost 10 minutes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178779"
+            },
+            {
+              "id": "BUG-000178811",
+              "description": "In ArcGIS Pro 3.5.2, the Least Cost Corridor tool consumes all memory.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178811"
+            },
+            {
+              "id": "BUG-000178844",
+              "description": "Inconsistency in a spatial join with Keep All Target Features enabled and attribute matching where features are dropped, increasing the search radius.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178844"
+            },
+            {
+              "id": "BUG-000178934",
+              "description": "The Edit Calibration Point tool fails with an error in handling operation applyEdits due to a timeout in the operation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178934"
+            },
+            {
+              "id": "BUG-000178936",
+              "description": "ArcGIS Pro crashes after adding a point set to the map using the 'Add a Point Set' button in the Tie Point Editor window.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178936"
+            },
+            {
+              "id": "BUG-000179098",
+              "description": "When a user in an ArcGIS Online organization searches for an item on the My Organization tab of the Portal tab in the ArcGIS Pro Catalog pane, the option to delete these items appears even when the user’s current permissions in the organization do not all",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179098"
+            },
+            {
+              "id": "BUG-000179195",
+              "description": "The attribute table of a branch versioned class takes a long time to open with feature services.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179195"
+            },
+            {
+              "id": "BUG-000179198",
+              "description": "When adding the WebP Web Map Tile Service (WMTS) tiles to ArcGIS Pro, the background areas are rendered as black.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179198"
+            },
+            {
+              "id": "BUG-000179243",
+              "description": "In ArcGIS Pro, the output of the Export Training Data For Deep Learning tool is shifted by one pixel.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179243"
+            },
+            {
+              "id": "BUG-000179317",
+              "description": "Creating a new dimension line record fails when editing source data with a negative z-value in an enterprise geodatabase (EGDB).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179317"
+            },
+            {
+              "id": "BUG-000179349",
+              "description": "Using the Python syntax 'lyr.getSelectionSet()' on basemap layers returns an error message, \"RuntimeError\", in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179349"
+            },
+            {
+              "id": "BUG-000179377",
+              "description": "The color management settings are not respected when exporting a layout to TIFF using the Export Layout tool in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179377"
+            },
+            {
+              "id": "BUG-000179388",
+              "description": "After selecting more than 1000 datasets to render in the Bathymetric Dataset Index (BDI), the error message \"Underlying DBMS error [ORA- 01795: maximum number of expressions in a list is 1000]\" is returned in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179388"
+            },
+            {
+              "id": "BUG-000179464",
+              "description": "In ArcGIS Pro 3.5.3, the Spatial Analyst tools return the error message \"010819: The input path contains spaces\" when opening projects created in ArcGIS Pro 3.3.x and using data from the project database.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179464"
+            },
+            {
+              "id": "BUG-000179465",
+              "description": "Running the Align Features workflow on a parcel fabric service after validating topology can cause the line to break, leading to topological validation errors in the Error Inspector tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179465"
+            },
+            {
+              "id": "BUG-000179480",
+              "description": "The Features button on the Error Inspector pane fails to select the underlying features returning the error on the map.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179480"
+            },
+            {
+              "id": "BUG-000179511",
+              "description": "The Split Address Into Components tool fails if the input table contains a field with the same name as any of the fields the tool creates.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179511"
+            },
+            {
+              "id": "BUG-000179547",
+              "description": "Performance for Feature Outline Masks is slower for annotation layers than it was in ArcGIS Pro 3.2.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179547"
+            },
+            {
+              "id": "BUG-000179565",
+              "description": "An oriented imagery dataset using Azure Blob Storage as its data source cannot be viewed in the 360 Viewer in ArcGIS Pro 3.5.3, although it is accessible in ArcGIS Online.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179565"
+            },
+            {
+              "id": "BUG-000179600",
+              "description": "The size tag of a dynamic text is not correctly handled in ArcGIS Pro layouts when the size is set to 0.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179600"
+            },
+            {
+              "id": "BUG-000179618",
+              "description": "All subtype names are displayed in the pop-up when selecting a feature with relationships between a feature class without subtypes and a subtype group layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179618"
+            },
+            {
+              "id": "BUG-000179619",
+              "description": "Reports in ArcGIS Pro do not maintain a custom field arrangement after a sorting field is assigned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179619"
+            },
+            {
+              "id": "BUG-000179641",
+              "description": "The Linear Referencing Query Attribute Set operation includes hidden fields in the output.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179641"
+            },
+            {
+              "id": "BUG-000179642",
+              "description": "The GetGlobalID() method returns a GeodatabaseTopologyException error when trying to retrieve a global ID from dirty areas in a utility network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179642"
+            },
+            {
+              "id": "BUG-000179656",
+              "description": "The Extract by Mask tool produces the incorrect result when the Outside option for the Extraction Area parameter is used.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179656"
+            },
+            {
+              "id": "BUG-000179657",
+              "description": "Layer visibility settings of a web map from ArcGIS Enterprise Map Viewer are not saved when opened in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179657"
+            },
+            {
+              "id": "BUG-000179757",
+              "description": "The error message “Failed to evaluate Arcade expression” is returned when moving approximately 1,000 features in ArcGIS Pro 3.5.3 with a specific constraint attribute rule.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179757"
+            },
+            {
+              "id": "BUG-000179774",
+              "description": "A subnetwork trace operation for Update Subnetwork is inefficiently querying the Subnetworks table for each device that is a controller.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179774"
+            },
+            {
+              "id": "BUG-000179780",
+              "description": "The Points Along Line tool ignores Z values of the line when using the Varying Distances tab.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179780"
+            },
+            {
+              "id": "BUG-000179783",
+              "description": "After making route edits and clicking Process Edits, the tool freezes and gets stuck on Querying edit log.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179783"
+            },
+            {
+              "id": "BUG-000179795",
+              "description": "In ArcGIS Data Interoperability, the SchemaMapper transformer returns the error message \"cannot read more cells in trial version\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179795"
+            },
+            {
+              "id": "BUG-000179821",
+              "description": "glTF content using optional Zstandard compression for Basis textures renders incompletely in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179821"
+            },
+            {
+              "id": "BUG-000179828",
+              "description": "The error message \"Invalid Expression\" is returned when running a Select By Attribute query on a subtype group feature layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179828"
+            },
+            {
+              "id": "BUG-000179845",
+              "description": "Credentials are not stored in Windows Credentials for a secured WMS Service when opening an ArcGIS Pro project where the service already exists.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179845"
+            },
+            {
+              "id": "BUG-000179856",
+              "description": "The visibility scale range is not honored for the dirty areas layer on a utility network feature service in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179856"
+            },
+            {
+              "id": "BUG-000179878",
+              "description": "The Generate Near Table geoprocessing tool fails and returns error 999999 when the Match Fields parameter contains null values.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179878"
+            },
+            {
+              "id": "BUG-000179889",
+              "description": "The Points Along Line tool does not respect the z-values of a line and incorrectly uses the 2D length instead of the 3D length.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179889"
+            },
+            {
+              "id": "BUG-000179890",
+              "description": "The customer is developing a custom script using the 'Polyline.positionAlongLine' method to create tiles around walls. They rely on shifting parallel lines using vectors or normals, which involves negative parameter values such as -0.01 at the first verte",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179890"
+            },
+            {
+              "id": "BUG-000179901",
+              "description": "Utility network traces do not honor the bidirectional terminal configuration on a low-voltage switch.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179901"
+            },
+            {
+              "id": "BUG-000179905",
+              "description": "The vehicle routing problem layer fails to solve and returns the error message, \"Error 030024: Solve returned a failure\" when a second time window is implemented.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179905"
+            },
+            {
+              "id": "BUG-000179928",
+              "description": "The Add Field option in the attribute table is greyed out for feature classes in a mobile geodatabase with a Basic license in ArcGIS Pro 3.5.3.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179928"
+            },
+            {
+              "id": "BUG-000179935",
+              "description": "The utility network associations validated in a version are posted and reappear in the default version.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179935"
+            },
+            {
+              "id": "BUG-000179983",
+              "description": "In a 3D scene, the snapping behavior is ignoring the network rules of the utility network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179983"
+            },
+            {
+              "id": "BUG-000180001",
+              "description": "When using the Divide tool in ArcGIS Pro to split a polygon feature by equal width, the actual width of the resulting parts is significantly larger than the distance specified when the unit is set to meters.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180001"
+            },
+            {
+              "id": "BUG-000180035",
+              "description": "When editing an annotation feature through the Inspector in ArcGIS Pro SDK, changes to the annotation color are ignored if the feature is loaded using the Load(Row) method overload instead of the Load(MapMember, IEnumerable) overload.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180035"
+            },
+            {
+              "id": "BUG-000180065",
+              "description": "Applying Auto Layout Group to grouped elements in ModelBuilder in ArcGIS Pro 3.5.3 causes spacing issues and overlaps between the model elements.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180065"
+            },
+            {
+              "id": "BUG-000180086",
+              "description": "A shapefile containing invalid coordinate values is causing severe memory leakage and application crashes in both ArcGIS Pro and ArcGIS Enterprise.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180086"
+            },
+            {
+              "id": "BUG-000180116",
+              "description": "Geocoding Manhattan, NY addresses as New York, NY in the ArcGIS World Geocoding Service yields inaccurate point placements in ArcGIS Online.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180116"
+            },
+            {
+              "id": "BUG-000180126",
+              "description": "The ArcGIS Pro Version Changes dialog box does not select the records changed in the stand-alone tables, only in the feature classes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180126"
+            },
+            {
+              "id": "BUG-000180138",
+              "description": "In ArcGIS Pro 3.5.3, autocomplete in a definition query does not return results when the searched value contains more than one word.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180138"
+            },
+            {
+              "id": "BUG-000180170",
+              "description": "The Split Address Into Components tool incorrectly retrieves the GlobalID value from the input data and populates it into an unrelated output field.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180170"
+            },
+            {
+              "id": "BUG-000180174",
+              "description": "The Parcel Fabrics Align Parcels tool is selecting parcels from outside designated parcels intended to be aligned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180174"
+            },
+            {
+              "id": "BUG-000180213",
+              "description": "Vector tile layers renamed in ArcGIS Online still display their original file names when added to ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180213"
+            },
+            {
+              "id": "BUG-000180224",
+              "description": "The Darcy Flow tool processes features outside the specified extent.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180224"
+            },
+            {
+              "id": "BUG-000180263",
+              "description": "The feature.GetShape() method causes high memory leaks and crashes in the ArcGIS Pro SDK for .NET 3.5.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180263"
+            },
+            {
+              "id": "BUG-000180269",
+              "description": "The Darcy Velocity tool fails to run with error 999999 when a study area is specified using the Mask option in the Environment setting.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180269"
+            },
+            {
+              "id": "BUG-000180305",
+              "description": "The attribute table for the branch versioned feature service does not load all attributes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180305"
+            },
+            {
+              "id": "BUG-000180336",
+              "description": "In ArcGIS Pro, placing a junction on a vertical utility network line in a 3D scene does not create a vertex at the junction location.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180336"
+            },
+            {
+              "id": "BUG-000180357",
+              "description": "When using the Align Parcels tool in ArcGIS Pro 3.6 Beta 2, the align process sometimes creates shortened lines.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180357"
+            },
+            {
+              "id": "BUG-000180407",
+              "description": "In ArcGIS Pro, exporting a layout as a PDF generates a temporary file containing an extension commonly used by ransomware tools.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180407"
+            },
+            {
+              "id": "BUG-000180428",
+              "description": "In ArcGIS Pro, using more than two input datasets in the Append tool triggers an incorrect \"Field length is shorter than the source fields\" warning message for text fields.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180428"
+            },
+            {
+              "id": "BUG-000180456",
+              "description": "Calculate Geometry Attributes does not update the shift in z-values when applying a different vertical reference and transformation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180456"
+            },
+            {
+              "id": "BUG-000180516",
+              "description": "Unable to import an Excel file as input to the Excel To Table tool in ArcGIS Pro 3.4 and later.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180516"
+            },
+            {
+              "id": "BUG-000180523",
+              "description": "The Generate Routes tool runs slowly when processing a subset of engineering network features without a configured continuous network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180523"
+            },
+            {
+              "id": "BUG-000180527",
+              "description": "Decimal values do not display in ArcGIS Pro temporal profile charts when the Windows regional format is set to German.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180527"
+            },
+            {
+              "id": "BUG-000180528",
+              "description": "The NATO Joint Military Symbology APP6-D ArcGIS Mobile style (.stylx) file is missing symbols.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180528"
+            },
+            {
+              "id": "BUG-000180607",
+              "description": "Attempts to generate a licensed file geodatabase containing a network return an error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180607"
+            },
+            {
+              "id": "BUG-000180615",
+              "description": "The label expression for the Distance Mismatch layer does not include logic for curves, causing incorrect results for curved lines.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180615"
+            },
+            {
+              "id": "BUG-000180636",
+              "description": "Auto Rematch fails and returns the error message \"Edit operation failed. The operation was attempted on an empty geometry.\" even though there is no empty geometry.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180636"
+            },
+            {
+              "id": "BUG-000180663",
+              "description": "When using the Append tool in an update workflow between two copy feature classes stored in an enterprise geodatabase (SDE), the tool adds new records instead of updating existing ones when the GlobalID is used as the matching field.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180663"
+            },
+            {
+              "id": "BUG-000180679",
+              "description": "The attribute rule validation can fail with the \"A database error was encountered\" message returned because the number of records modified in a version is too large.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180679"
+            },
+            {
+              "id": "BUG-000180680",
+              "description": "Increased .mapx file loading times in Windows Server 2019 between ArcGIS Pro 3.3 and ArcGIS 3.5.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180680"
+            },
+            {
+              "id": "BUG-000180681",
+              "description": "Get Count (arcpy.management.GetCount) fails on SQL Server views.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180681"
+            },
+            {
+              "id": "BUG-000180695",
+              "description": "The Align Parcels tool result is different when the historic parcels are turned on and off.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180695"
+            },
+            {
+              "id": "BUG-000180719",
+              "description": "The Reconstruct From Seeds tool causes ArcGIS Pro to become unresponsive when a boundary segment from a different parcel type is used to replace a deleted segment in a parcel.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180719"
+            },
+            {
+              "id": "BUG-000180735",
+              "description": "Support indexing the contents of an enterprise geodatabase not included in projects and sharing the resulting index.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180735"
+            },
+            {
+              "id": "BUG-000180742",
+              "description": "Overwriting a hosted feature service from ArcGIS Pro fails if change tracking is enabled, and the service is placed in the Recycle Bin or deleted if the organization has not opted for the Recycle Bin.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180742"
+            },
+            {
+              "id": "BUG-000180750",
+              "description": "The Presence-only Prediction (MaxEnt) tool can still run with a Basic license even when the ArcGIS Spatial Analyst extension is not enabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180750"
+            },
+            {
+              "id": "BUG-000180769",
+              "description": "The Tabulate Area geoprocessing tool with the USA SSURGO The Nonirrigated Capability Class raster layer in ArcGIS Living Atlas does not output the input field names in the output table.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180769"
+            },
+            {
+              "id": "BUG-000180781",
+              "description": "ArcGIS Server fails to publish a feature service referencing Snowflake when an inadvertent space at the beginning of the server parameter is used in the Snowflake database connection properties.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180781"
+            },
+            {
+              "id": "BUG-000180810",
+              "description": "The ArcGIS Arcade getUser function returns null in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180810"
+            },
+            {
+              "id": "BUG-000180852",
+              "description": "In ArcGIS Pro, exporting a spatial map series to PDF using the 'Multiple Files (Page name as suffix)' option fails if the page name has multiple lines. No error is returned and the page is skipped.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180852"
+            },
+            {
+              "id": "BUG-000180876",
+              "description": "In ArcGIS Pro, after changing the maximum number of features returned for a Web Feature Service (WFS) layer, opening the attribute table returns an error, and at times not all features are visible.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180876"
+            },
+            {
+              "id": "BUG-000180916",
+              "description": "When splitting a line event and choosing from the map option, the line does not snap to the expected location.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180916"
+            },
+            {
+              "id": "BUG-000180918",
+              "description": "The Linear Directional Mean tool creates an incorrect output for features in the European Datum 1950 UTM Zone 31N coordinate system if the y- coordinate of the left side of the line is 1 meter higher than the y- coordinate of the right side of the line.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180918"
+            },
+            {
+              "id": "BUG-000180921",
+              "description": "Provide secure access path for ArcGIS Pro notebooks.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180921"
+            },
+            {
+              "id": "BUG-000180945",
+              "description": "When the custom font eudc.TTE is set in ArcGIS Pro, only the Attributes pane displays differently.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180945"
+            },
+            {
+              "id": "BUG-000180958",
+              "description": "The error message \"00155: A transformation from the map's datum to WGS 1984 Major Auxiliary Sphere is required\" is returned when sharing a web elevation layer in a coordinate system other than WGS 1984.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180958"
+            },
+            {
+              "id": "BUG-000180961",
+              "description": "ArcGIS Pro crashes when running the Intersect geoprocessing tool against OpenSearch.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180961"
+            },
+            {
+              "id": "BUG-000180969",
+              "description": "The domain owner changes upon refresh, depending on the user connected to the database.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180969"
+            },
+            {
+              "id": "BUG-000180970",
+              "description": "The Detect Objects Using Deep Learning tool produces empty results when the input raster is using a geographic coordinate system.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180970"
+            },
+            {
+              "id": "BUG-000180979",
+              "description": "ArcGIS Pro hangs on \"Loading Map...\" when reopening a project containing OS NGD OGC API layers with MODE=ONDEMAND and an OS Maps API basemap.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180979"
+            },
+            {
+              "id": "BUG-000180995",
+              "description": "Address the EXE copy requirement with ArcGISUpdate.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180995"
+            },
+            {
+              "id": "BUG-000181016",
+              "description": "Index creation during the Add Join operation fails on a GeoPackage and returns the error message \"ERROR 160236: The Operation is not supported by this implementation.\"",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181016"
+            },
+            {
+              "id": "BUG-000181029",
+              "description": "Unable to merge two parcel seeds when an active record is set.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181029"
+            },
+            {
+              "id": "BUG-000181036",
+              "description": "The documentation for the Flat Cache option in Create Vector Tile Package tool is inconsistent with the behavior of the tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181036"
+            },
+            {
+              "id": "BUG-000181047",
+              "description": "Return propagated values for each feature in the trace output.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181047"
+            },
+            {
+              "id": "BUG-000181052",
+              "description": "The Add Spatial Join (Data Management) tool produces inconsistent results when used multiple times.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181052"
+            },
+            {
+              "id": "BUG-000181072",
+              "description": "When a second session attempts to validate network topology in the default version, the proper error message indicating another session is currently validating is no longer returned. Instead, a poor error about a serialization lock is encountered. This is",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181072"
+            },
+            {
+              "id": "BUG-000181088",
+              "description": "When running the Calculate Geometry Attributes tool in ArcGIS Pro 3.6 on a feature service stored in ArcGIS Online, the values in fields within the feature service’s attribute table that are not being calculated are converted to unexpected values.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181088"
+            },
+            {
+              "id": "BUG-000181091",
+              "description": "The Sort and Filter tools in the Manage Replicas pane do not work in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181091"
+            },
+            {
+              "id": "BUG-000181102",
+              "description": "The Extract Floor Plan Features From PDF tool fails and returns the “ERROR 000358: Invalid expression” error message when the operating system (OS) locale is set to German.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181102"
+            },
+            {
+              "id": "BUG-000181112",
+              "description": "In ArcGIS Pro 3.6, the dropdown on the Template tab of the Paste Special dialog box does not reference the group layer names.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181112"
+            },
+            {
+              "id": "BUG-000181126",
+              "description": "In ArcGIS Pro, adding ISAT rasters to a mosaic dataset results in error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181126"
+            },
+            {
+              "id": "BUG-000181135",
+              "description": "Legends in ArcGIS Pro do not display the offset effect for line symbols.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181135"
+            },
+            {
+              "id": "BUG-000181140",
+              "description": "Partial addresses with APT/UNIT/STE return suggestions but do not return candidates when using locators created in ArcGIS Pro 3.5 or 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181140"
+            },
+            {
+              "id": "BUG-000181209",
+              "description": "The Distance Accumulation and Distance Allocation tools create blocks of NoData when the input sources are very large.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181209"
+            },
+            {
+              "id": "BUG-000181216",
+              "description": "The Viewshed tool creates an output where the symbology is set to Classify and only displays the layer in one classification.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181216"
+            },
+            {
+              "id": "BUG-000181217",
+              "description": "In ArcGIS Pro 3.6, dynamic text using project metadata does not correctly interpret a backslash (\\) when the symbol appears at the end of a sentence in a layout.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181217"
+            },
+            {
+              "id": "BUG-000181234",
+              "description": "ArcGIS Pro 3.6 fails to open an AutoCAD DWG file and returns the “External component has thrown an exception” error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181234"
+            },
+            {
+              "id": "BUG-000181243",
+              "description": "The ArcGIS Pro Network Analyst Route analysis layer returns the error message \"Error 030024: Solve returned a failure\" when running a Route solve with more than 2,000 stops.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181243"
+            },
+            {
+              "id": "BUG-000181265",
+              "description": "[Oracle] Branch versioned queries remove the gdb branch id filter from _ _ the nested inner query before the analytic operation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181265"
+            },
+            {
+              "id": "BUG-000181294",
+              "description": "The ArcGIS Aviation ICAO Annex 14 OFS OES tool crashes when calculating OFS if the input dataset contains more than one centerline feature.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181294"
+            },
+            {
+              "id": "BUG-000181308",
+              "description": "Dividing a polygon in a record-driven workflow does not account for the map projection.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181308"
+            },
+            {
+              "id": "BUG-000181320",
+              "description": "Printer margins display at the incorrect location in ArcGIS Pro when 'Show printer margins' is checked in the Print Layout pane.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181320"
+            },
+            {
+              "id": "BUG-000181326",
+              "description": "ArcGIS Pro 3.6 intermittently crashes when exporting a layout to PDF.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181326"
+            },
+            {
+              "id": "BUG-000181342",
+              "description": "ArcGIS Pro crashes when performing the Model to World Transformation for BIM data.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181342"
+            },
+            {
+              "id": "BUG-000181361",
+              "description": "The Calculated Area field is not calculated for some parcels in the parcel fabric.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181361"
+            },
+            {
+              "id": "BUG-000181365",
+              "description": "ArcGIS Pro 3.6 crashes when running the Table To Excel tool if the tool's Input Table parameter is set to a feature class or table with a name containing multiple Chinese characters but ending in a non-Chinese character.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181365"
+            },
+            {
+              "id": "BUG-000181367",
+              "description": "The internal reference counter is not being released when transactions are aborted (rolled back), leading to lock request errors.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181367"
+            },
+            {
+              "id": "BUG-000181383",
+              "description": "ArcGIS Pro 3.6 crashes when the TEMP folder is set to a Uniform Naming Convention (UNC) path.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181383"
+            },
+            {
+              "id": "BUG-000181387",
+              "description": "When upgrading the geodatabase to ArcGIS Server 11.3, the spatial indexes and index types are invalidated.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181387"
+            },
+            {
+              "id": "BUG-000181388",
+              "description": "The Export or Repair Mosaic Dataset Paths tool produces duplicate paths with modified path strings when the data is stored in a S3 bucket or on a network drive.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181388"
+            },
+            {
+              "id": "BUG-000181391",
+              "description": "Unable to scroll through symbol classes with the mouse wheel when unique values is set as the primary symbology in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181391"
+            },
+            {
+              "id": "BUG-000181414",
+              "description": "Optimize the overlap detection logic during the update subnetwork operation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181414"
+            },
+            {
+              "id": "BUG-000181415",
+              "description": "Unable to collect spectral signatures in the Spectral Signature Viewer as the tools in the Spectral Signature Viewer pane are disabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181415"
+            },
+            {
+              "id": "BUG-000181416",
+              "description": "Running the Recover File Geodatabase geoprocessing tool in ArcGIS Pro 3.6 causes the application to crash.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181416"
+            },
+            {
+              "id": "BUG-000181440",
+              "description": "[SQL Server] Branch versioned queries remove the gdb branch id filter _ _ from the nested inner query prior to the analytic operation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181440"
+            },
+            {
+              "id": "BUG-000181465",
+              "description": "In ArcGIS Pro, the layout of a spatial map series does not update when changing the pages if Web Feature Service (WFS) is used as the index layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181465"
+            },
+            {
+              "id": "BUG-000181472",
+              "description": "Certain thermal datasets fail initial block adjustment",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181472"
+            },
+            {
+              "id": "BUG-000181473",
+              "description": "In ArcGIS Pro 3.6, the 'Zonal Statistics as Table' tool returns NULL values when run on a global raster.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181473"
+            },
+            {
+              "id": "BUG-000181474",
+              "description": "Branch versioned queries with a logfile join should be part of the inner query for obtaining the classes of sde rowid candidates used by the _ analytic.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181474"
+            },
+            {
+              "id": "BUG-000181492",
+              "description": "In ArcGIS Pro, when running the data check on the 'Feature on Feature' check with the Evaluate Z parameter enabled to find intersects spatial relationships, any points on multiple 3D line features that intersect in 2D space but do not intersect in 3D spac",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181492"
+            },
+            {
+              "id": "BUG-000181502",
+              "description": "In ArcGIS Pro 3.6, attempting to open the attached DWG file returns the “External component has thrown an exception” error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181502"
+            },
+            {
+              "id": "BUG-000181508",
+              "description": "The green cross mark does not snap to the clicked location when using the Identify Routes tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181508"
+            },
+            {
+              "id": "BUG-000181529",
+              "description": "The Pause interactive label tool is out of sync when the map projection is switched.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181529"
+            },
+            {
+              "id": "BUG-000181531",
+              "description": "Web Map Service (WMS) layers do not display at the top of the map when data is added via a WMS connection and the map uses a projected coordinate system.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181531"
+            },
+            {
+              "id": "BUG-000181545",
+              "description": "Limit the use of selection sets in validation unless required to avoid token limitations.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181545"
+            },
+            {
+              "id": "BUG-000181604",
+              "description": "After upgrading to ArcGIS Pro 3.6.0, the Display Options > Constraint > 'Linked map frame center and scale' setting for the secondary map frame stopped working. In ArcGIS Pro versions 3.5.0 and 3.5.5, when the primary map frame is activated within the lay",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181604"
+            },
+            {
+              "id": "BUG-000181611",
+              "description": "The Append Routes tool (Pipeline Referencing) has poor performance when run on a single record.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181611"
+            },
+            {
+              "id": "BUG-000181623",
+              "description": "The polygon outline is not fully suppressed when using the round cap type.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181623"
+            },
+            {
+              "id": "BUG-000181624",
+              "description": "When geocoding a table in ArcGIS Pro, the ArcGIS StreetMap Premium and ArcGIS World Geocoding Service locators return inconsistent Point Address category counts when selecting all categories versus selecting only the Point Address category.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181624"
+            },
+            {
+              "id": "BUG-000181663",
+              "description": "In ArcGIS Pro, the Calculate Field tool does not honor the definition query applied to the layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181663"
+            },
+            {
+              "id": "BUG-000181700",
+              "description": "Charts with 'Split by (optional)' do not display correctly when the data source has a join.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181700"
+            },
+            {
+              "id": "BUG-000181708",
+              "description": "Features are deleted when running the Split tool on a feature record entirely contained within another feature record in the same feature layer in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181708"
+            },
+            {
+              "id": "BUG-000181713",
+              "description": "In ArcGIS Pro 3.6, the Align Parcels tool causes significant movement beyond the new parcels during the alignment.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181713"
+            },
+            {
+              "id": "BUG-000181734",
+              "description": "Shared templates: templates from the same layer but in different maps are deleted during storage, even when the Delete checkbox is unchecked.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181734"
+            },
+            {
+              "id": "BUG-000181735",
+              "description": "In ArcGIS Pro, broken Store Templates fail to add but the dialog indicates that they succeeded.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181735"
+            },
+            {
+              "id": "BUG-000181736",
+              "description": "Store Templates are automatically stored when the dialog is opened in ArcGIS Pro 3.5.3 to 3.5.5, but the issue is not reproducible in ArcGIS Pro 3.5 or 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181736"
+            },
+            {
+              "id": "BUG-000181748",
+              "description": "The STAC connection in ArcGIS Pro returns the \"String was not recognized as a valid DateTime\" error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181748"
+            },
+            {
+              "id": "BUG-000181757",
+              "description": "ArcGIS Pro 3.4 crashes when editing a model tool created in ArcGIS Pro 3.6 containing the Multiple Ring Buffer tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181757"
+            },
+            {
+              "id": "BUG-000181761",
+              "description": "Adding vertices to long linear referencing system (LRS) routes causes a timeout error after 15+ minutes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181761"
+            },
+            {
+              "id": "BUG-000181787",
+              "description": "When the same reference file is referenced in both the base cell EN and the update cell ER, the Create S-57 Exchange Set tool does not package the reference file when the Updates Only option is used.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181787"
+            },
+            {
+              "id": "BUG-000181796",
+              "description": "Opening DWG data returns the error message \"External component has thrown an exception\" and causes ArcGIS Pro 3.6 to crash when opening the project package.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181796"
+            },
+            {
+              "id": "BUG-000181809",
+              "description": "ArcGIS Pro 3.6 crashes when running the Locate Features Along Routes tool twice in one session.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181809"
+            },
+            {
+              "id": "BUG-000181810",
+              "description": "In ArcGIS Pro, query layers for SDO Geometry feature classes do not draw _ when the 'Coordinates include Z values' box is checked in the New Query Layer window.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181810"
+            },
+            {
+              "id": "BUG-000181821",
+              "description": "The Workflow pane in ArcGIS Pro triggers SEVERE errors in the ArcGIS Server logs.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181821"
+            },
+            {
+              "id": "BUG-000181832",
+              "description": "Geodesic distance produces incorrect results when processing the entire world.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181832"
+            },
+            {
+              "id": "BUG-000181845",
+              "description": "Paths to imagery stored in an Azure Blob container cannot be repaired when the new path is also a location in the Azure Blob container.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181845"
+            },
+            {
+              "id": "BUG-000181866",
+              "description": "Running the Make Multidimensional Raster Layer geoprocessing tool in ArcGIS Pro 3.6 results in errors and does not successfully run on a dataset previously working in ArcGIS Pro 3.5.4.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181866"
+            },
+            {
+              "id": "BUG-000181874",
+              "description": "When TIFF images are added to a map and inserted into a layout as images in ArcGIS Pro, the color rendering of the images changes inconsistently.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181874"
+            },
+            {
+              "id": "BUG-000181916",
+              "description": "When date attributes from the Japanese era calendar (和暦) are used in the definition query, the configured definition query does not function.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181916"
+            },
+            {
+              "id": "BUG-000181921",
+              "description": "Within the Update Subnetwork tool, do not trace adjacent subnetworks during overlap detection.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181921"
+            },
+            {
+              "id": "BUG-000181922",
+              "description": "Simplify the un # associations query by removing the OR condition to _ _ avoid full table scans.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181922"
+            },
+            {
+              "id": "BUG-000181937",
+              "description": "When running the Forest-based Classification and Regression and Boosted Classification and Regression Spatial Statistics tools, the Variable to Predict parameter is required.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181937"
+            },
+            {
+              "id": "BUG-000181959",
+              "description": "The Spatial Data Transfer Standard (SDTS) is no longer supported as an elevation source in ArcGIS Pro 3.6 and ArcGIS Pro SDK for .NET.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181959"
+            },
+            {
+              "id": "BUG-000181960",
+              "description": "In ArcGIS Pro 3.6, the software update status returns the “An internet connection is currently unavailable” error message instead of returning the “Your ArcGIS Pro version is current.” expected error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181960"
+            },
+            {
+              "id": "BUG-000181974",
+              "description": "Waste Collection solver fails to calculate collection edges for single-part roads that end on themselves when connectivity model is \"Any Vertex.\"",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181974"
+            },
+            {
+              "id": "BUG-000182027",
+              "description": "Splitting a line feature service stored in a different projection results in shifted output after splitting.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182027"
+            },
+            {
+              "id": "BUG-000182039",
+              "description": "Allow Evaluate Rules to terminate early without processing the entire input.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182039"
+            },
+            {
+              "id": "BUG-000182048",
+              "description": "When creating a new feature using contingent values, the values do not auto-update in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182048"
+            },
+            {
+              "id": "BUG-000182052",
+              "description": "The Modify Subnetwork Controller pane does not load nonspatial objects participating in a group layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182052"
+            },
+            {
+              "id": "BUG-000182063",
+              "description": "Unable to access the items within a style class for a style in the details panel of the catalog view in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182063"
+            },
+            {
+              "id": "BUG-000182088",
+              "description": "Cannot use Locator View in ArcGIS Pro as an exclamation mark appears.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182088"
+            },
+            {
+              "id": "BUG-000182100",
+              "description": "Geocoding in ArcGIS Pro 3.6 to ArcGIS Pro 3.6.1 consistently returns Unmatched results, displaying error 499 for missing authentication token.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182100"
+            },
+            {
+              "id": "BUG-000182104",
+              "description": "Pressing the Esc key when editing a field in the Attributes pane causes ArcGIS Pro to crash.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182104"
+            },
+            {
+              "id": "BUG-000182108",
+              "description": "The ICAO Annex 14 OFS OES tool does not produce valid surfaces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182108"
+            },
+            {
+              "id": "BUG-000182115",
+              "description": "In ArcGIS Pro, the Generate Drive Time Trade Areas (Business Analyst) tool failed with error 080381 when using online Business Analyst data but works with local data.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182115"
+            },
+            {
+              "id": "BUG-000182131",
+              "description": "Only the first layer (loads multiple times) of OGC WFS services loads when trying to add more than one layer into a map in ArcGIS Pro 3.6.x.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182131"
+            },
+            {
+              "id": "BUG-000182155",
+              "description": "The ArcGIS Pro SDK for .NET SketchTools add-in cannot be finished using the F2 shortcut key.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182155"
+            },
+            {
+              "id": "BUG-000182174",
+              "description": "Append Routes fails and returns the \"ERROR 000426: Out of Memory\" error message when the Consider existing centerlines parameter is enabled on large LRS networks with ~5.5M centerlines.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182174"
+            },
+            {
+              "id": "BUG-000182184",
+              "description": "ArcGIS Pro performs slowly while editing annotations and after the Modify Features window opens.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182184"
+            },
+            {
+              "id": "BUG-000182187",
+              "description": "Performing a batch attribute calculation can break subsequent validation attribute rule evaluations.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182187"
+            },
+            {
+              "id": "BUG-000182200",
+              "description": "The Relationship Manager tool does not allow associations between scale bands with conflated features.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182200"
+            },
+            {
+              "id": "BUG-000182231",
+              "description": "ArcGIS Pro opens with a large blank space in the ribbon area when the ribbon is set to 'Show tabs only'. This occurs when the application is closed with the ribbon set to shy mode and the Quick Access Toolbar (QAT) set to show below the ribbon.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182231"
+            },
+            {
+              "id": "BUG-000182234",
+              "description": "When using the Spatial Join tool, customizing the Join Count Field Name column causes the join count field in the attribute table to incorrectly display 0 for all records.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182234"
+            },
+            {
+              "id": "BUG-000182251",
+              "description": "When using the parcel fabric to set a parcel as historic, overlapping parcels and the use of polylines cause some points to be incorrectly marked as historic.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182251"
+            },
+            {
+              "id": "BUG-000182299",
+              "description": "Using the Copy Parcels tool on a parcel fabric service results in a broken relationship between connection lines and the parcel record.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182299"
+            },
+            {
+              "id": "BUG-000182311",
+              "description": "DGN files render incorrectly in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182311"
+            },
+            {
+              "id": "BUG-000182316",
+              "description": "ArcGIS Pro 3.6.1, applying DRA to raster and saving to XML with a complete histogram for datasets with large extent, causes ArcGIS Pro to freeze, and no file is written to disk.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182316"
+            },
+            {
+              "id": "BUG-000182326",
+              "description": "Incorrect statistical values are displayed in the Data Engineering pane in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182326"
+            },
+            {
+              "id": "BUG-000182347",
+              "description": "ArcGIS Pro 3.6.0 freezes when the Compilation Scale tool on the Maritime tab is added to the Quick Access Toolbar.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182347"
+            },
+            {
+              "id": "BUG-000182352",
+              "description": "Newly created parcel fabric records are intermittently not selected in Tasks when a project is created from a template that already contains Tasks and no map is open at project creation time.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182352"
+            },
+            {
+              "id": "BUG-000182384",
+              "description": "When Windows uses a comma as the decimal separator, ArcGIS Pro sends malformed bbox parameters to the OGC API Features service and the error \"400 Bad Request\" is returned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182384"
+            },
+            {
+              "id": "BUG-000182390",
+              "description": "In ArcGIS Pro, setting a label class’s visible property via ArcPy using LabelClass.visible = True or False causes the 'Label Features in This Class' checkbox in the Labeling ribbon to become unchecked and out of sync with the actual label display.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182390"
+            },
+            {
+              "id": "BUG-000182391",
+              "description": "The createReplica REST operation fails against SAP HANA Cloud referenced feature services and returns the \"Unable to complete operation. Error in performing CreateReplica operation.” error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182391"
+            },
+            {
+              "id": "BUG-000182397",
+              "description": "Shared feature templates stored on a reference feature service return an empty definition when a German special character is present in the attribute properties of the feature template.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182397"
+            },
+            {
+              "id": "BUG-000182408",
+              "description": "The Create button on the feature template in the Favorites tab is misleading for feature classes, as it performs no action and provides no indication that it is intended only for table-based templates.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182408"
+            },
+            {
+              "id": "BUG-000182414",
+              "description": "Auto Rematch overwrites the original fields from the input table to <null> when geocoding a table with a composite locator and the Output Fields parameter is set to Minimal and User Fields in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182414"
+            },
+            {
+              "id": "BUG-000182435",
+              "description": "Distance Accuracy is overridden by the least squares adjustment engine in parcel fabric.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182435"
+            },
+            {
+              "id": "BUG-000182469",
+              "description": "Unable to overwrite a geocode service with Batch Geocode capability published to ArcGIS Enterprise on Kubernetes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182469"
+            },
+            {
+              "id": "BUG-000182473",
+              "description": "The suggest and findAddressCandidates operations return different postal attributes for a similar address.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182473"
+            },
+            {
+              "id": "BUG-000182488",
+              "description": "In ArcGIS Pro, the Generate Desire Lines geoprocessing tool fails immediately, at approximately 0.6 seconds, and returns the error message “ERROR 999999: COM Error” when either input, Store or Customer, is a hosted feature layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182488"
+            },
+            {
+              "id": "BUG-000182510",
+              "description": "Editing editor tracking enabled data in ArcGIS Pro using the Microsoft Entra Integrated authentication type for Microsoft Azure SQL displays the user as ESRI ANONYMOUS. _",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182510"
+            },
+            {
+              "id": "BUG-000182511",
+              "description": "Subsequent selections of topology errors automatically follow the first fix choice.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182511"
+            },
+            {
+              "id": "BUG-000182524",
+              "description": "When using the parcel fabric and the Build Extent command, only use the lines in the visible map extent.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182524"
+            },
+            {
+              "id": "BUG-000182536",
+              "description": "In ArcGIS Pro 3.6.1, the Generate SDCX Index (Business Analyst) tool returns error 999999.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182536"
+            },
+            {
+              "id": "BUG-000182547",
+              "description": "In the ArcGIS Experience Builder web app, for ArcGIS Enterprise 11.5 and ArcGIS Enterprise 12.0, when attempting to export a custom report of filtered data, all data is returned in the exported report.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182547"
+            },
+            {
+              "id": "BUG-000182558",
+              "description": "Performance issue when a record contains millions of parcels",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182558"
+            },
+            {
+              "id": "BUG-000182617",
+              "description": "The location-allocation solver chooses a suboptimal facility for a demand point when there are closer facilities available with capacity using the Maximize Capacitated Coverage problem type.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182617"
+            },
+            {
+              "id": "BUG-000182621",
+              "description": "The Traverse tool returns incorrect COGO direction values when creating lines using the Two-Point Line construction method in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182621"
+            },
+            {
+              "id": "BUG-000182625",
+              "description": "Setting the scale bar anchor to lower right prevents it from aligning exactly with the lower right corner when dragged.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182625"
+            },
+            {
+              "id": "BUG-000182649",
+              "description": "When the feature cache is disabled, related records are not created from feature templates for line features in a utility network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182649"
+            },
+            {
+              "id": "BUG-000182652",
+              "description": "Prune fails when executed on an Oracle 11.3 geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182652"
+            },
+            {
+              "id": "BUG-000182659",
+              "description": "The Distance Allocation (Spatial Analyst) tool shows a decrease in performance in ArcGIS Pro 3.6.x.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182659"
+            },
+            {
+              "id": "BUG-000182696",
+              "description": "Poor performance occurs when running the Generate Events (Location Referencing) tool on a single event layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182696"
+            },
+            {
+              "id": "BUG-000182701",
+              "description": "The Delete Features geoprocessing tool returns the \"ERROR 160113: The feature does not have any associated geometry.\" error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182701"
+            },
+            {
+              "id": "BUG-000182705",
+              "description": "The enterprise geodatabase connection keeps failing in ArcGIS Pro when using the Microsoft Entra Integrated authentication type for Microsoft Azure SQL.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182705"
+            },
+            {
+              "id": "BUG-000182710",
+              "description": "The differences operation in ArcGIS REST APIs fails to return feature edits for utility network feature services stored in an Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182710"
+            },
+            {
+              "id": "BUG-000182750",
+              "description": "In the ArcGIS Pro. when navigating to Options, 'Text and Graphics' and Default Graphic Element Symbols, the button icons for each point, line, polygon and text are missing for ArcGIS Pro 3.6.0 to 3.7.0 Beta when the dialogue is opened outside of a project",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182750"
+            },
+            {
+              "id": "BUG-000182779",
+              "description": "Show Only Active interferes with existing definition queries, which are disabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182779"
+            },
+            {
+              "id": "BUG-000182812",
+              "description": "\"ERROR 000582: Error occurred during execution\" is returned during execution when attempting to run the Create Replica tool with related data and the 'Xml file' output type.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182812"
+            },
+            {
+              "id": "BUG-000182813",
+              "description": "The publishing analyzer incorrectly requires the ArcGIS Image Server (imageextserver) license when publishing ModelBuilder tools that use Spatial Analyst tools, which also exist in the Image Analyst toolbox.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182813"
+            },
+            {
+              "id": "BUG-000182825",
+              "description": "GAIT SESSION CONFIG xml needs to include GAIT 31 information.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182825"
+            },
+            {
+              "id": "BUG-000182826",
+              "description": "Slow performance when running the Generate Near Table tool on a branch version service in ArcGIS Pro 3.6.x.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182826"
+            },
+            {
+              "id": "BUG-000182905",
+              "description": "In the Labeling pane, when selecting 'Contour placement' under the Position tab, in the 'Conflict resolution' tab, the Repeat options are greyed out in ArcGIS Pro v3.6.1.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182905"
+            },
+            {
+              "id": "BUG-000182922",
+              "description": "The Update Subnetwork tool does not reset the 'Subnetwork name' field when the subnetwork has no assemblies.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182922"
+            },
+            {
+              "id": "BUG-000182929",
+              "description": "Unable to link multiple map services to the same project or phases when using the Topographic Production Manager web app.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182929"
+            },
+            {
+              "id": "BUG-000182930",
+              "description": "The generateProduct REST API fails to include ancillary layers in PDF exports.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182930"
+            },
+            {
+              "id": "BUG-000182931",
+              "description": "The generateProduct REST API operation creates file locks on cartographic geodatabases located in the ArcGIS Topographic Mapping product file installer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182931"
+            },
+            {
+              "id": "BUG-000182932",
+              "description": "The Split tool causes the Map Production System to fail.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182932"
+            },
+            {
+              "id": "BUG-000182951",
+              "description": "Editing workflows have significant performance degradation after cumulative edits in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182951"
+            },
+            {
+              "id": "BUG-000182966",
+              "description": "SVG area markers (pattern fills) do not display in PDF output.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182966"
+            },
+            {
+              "id": "BUG-000183017",
+              "description": "When updating subnetworks, an applock error occurs and includes the globally unique identifier (GUID) of the object being locked.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183017"
+            },
+            {
+              "id": "BUG-000183024",
+              "description": "When sharing a layer as a web layer, the Summary text box does not accept text spaces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183024"
+            },
+            {
+              "id": "BUG-000183034",
+              "description": "Accessing metadata of a map or layer object in the Python window or ArcGIS Notebooks using a cloned environment crashes in ArcGIS Pro 3.6.2.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183034"
+            },
+            {
+              "id": "BUG-000183035",
+              "description": "Remove the redundant call to FETCH FORWARD.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183035"
+            },
+            {
+              "id": "BUG-000183057",
+              "description": "The Append tool generates duplicate Global IDs when the Preserve Global IDs environment is enabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183057"
+            },
+            {
+              "id": "BUG-000183148",
+              "description": "Possible defect registered in https://links.esri.com/run-arcgis-pro-36x. Dedicated video RAM has a value higher than \"Total Video RAM.\"",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183148"
+            },
+            {
+              "id": "BUG-000183172",
+              "description": "Coded value domains using the Date data type does not allow saving despite showing the correct drop-down descriptions in the attribute table. Attempting edit through attribute pane converts the choice into an invalid 1900-based date and reports domain val",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183172"
+            },
+            {
+              "id": "BUG-000183226",
+              "description": "ArcGIS Pro cannot render Meta Raster Format (MRF) red-green-blue (RGB) images converted using the default JPEG brunsli compression.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183226"
+            },
+            {
+              "id": "BUG-000183230",
+              "description": "ArcGIS Enterprise fails to render published MRF RGB images converted using the default JPEG Brunsli compression.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183230"
+            },
+            {
+              "id": "BUG-000183239",
+              "description": "When using the /findAddressCandidates request to geocode an address in Florida, the result returns an address in Alabama if a magicKey is not used.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183239"
+            },
+            {
+              "id": "BUG-000183243",
+              "description": "The Create Locator tool fails with Error 999999 when a field in the field mapping contains only quotation marks.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183243"
+            },
+            {
+              "id": "BUG-000183292",
+              "description": "Prune Branch History with an empty date ignores referenced moments, resulting in incorrect rows being pruned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183292"
+            },
+            {
+              "id": "BUG-000183319",
+              "description": "Post must get the can post property from the write lock",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183319"
+            },
+            {
+              "id": "BUG-000183359",
+              "description": "_ Utility network associations are not created when using preset templates.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183359"
+            },
+            {
+              "id": "BUG-000183404",
+              "description": "In ArcGIS Pro 3.6.2, the Huff Model returns an error message, \"160143: Field is not editable\" if the Sales Potential ID field contains null values.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183404"
+            },
+            {
+              "id": "BUG-000183415",
+              "description": "Snapping settings out of sync when settings are toggled while a table has focus.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183415"
+            },
+            {
+              "id": "BUG-000183447",
+              "description": "The corrupted custom (.prj) file is created when the language is set to Japanese in ArcGIS Pro 3.6.x.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183447"
+            },
+            {
+              "id": "BUG-000183457",
+              "description": "ArcGIS Pro rendering performance issue when working with a large topographic mapping dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183457"
+            },
+            {
+              "id": "BUG-000183468",
+              "description": "When running the Derive Event Measures geoprocessing tool on features in a server-based layer that participates in a branch-versioned linear referencing system (LRS) dataset, the tool fails if more than 18 to 20 records are selected.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183468"
+            },
+            {
+              "id": "BUG-000183529",
+              "description": "Shape marker point symbols display a different symbology after exporting to PDF.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183529"
+            },
+            {
+              "id": "BUG-000183535",
+              "description": "ArcGIS Pro 3.6.2 crashes when inserting a map from the catalog view while the Geography tab is open.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183535"
+            },
+            {
+              "id": "BUG-000183552",
+              "description": "When importing an existing CSV using the Table to Table Attribute rule, the error \"Error importing data reviewer rule. <file path.csv>\" is returned. _",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183552"
+            },
+            {
+              "id": "BUG-000183598",
+              "description": "Upgrading from Utility Network Version 6 to Utility Network Version 7 fails in SAP HANA.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183598"
+            },
+            {
+              "id": "BUG-000183606",
+              "description": "Unable to add Parquet files to ArcGIS Pro on a machine running Windows Server 2019.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183606"
+            },
+            {
+              "id": "BUG-000183611",
+              "description": "GeometryEngine.Instance.ProjectEx returns incorrect vertical units in ArcGIS Pro SDK for .NET 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183611"
+            },
+            {
+              "id": "BUG-000183649",
+              "description": "Custom date field formatting is not accurate for dynamic statistic text in the ArcGIS Pro report headers and footers.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183649"
+            },
+            {
+              "id": "BUG-000183673",
+              "description": "ArcGIS Pro crashes when validating a processing template parameter in a raster layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183673"
+            },
+            {
+              "id": "BUG-000183699",
+              "description": "ArcGIS Pro crashes when running Refresh Excel after external edits to XLSX files.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183699"
+            },
+            {
+              "id": "BUG-000183744",
+              "description": "The SpatialReference.Wkt property returns OGC WKT2 instead of Esri WKT in ArcGIS Pro SDK for .NET 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183744"
+            },
+            {
+              "id": "BUG-000183751",
+              "description": "The Create Network Dataset From Template tool fails when the target is an SDE and the template uses an element script evaluator that references system junctions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183751"
+            },
+            {
+              "id": "BUG-000183762",
+              "description": "The BIS To Mosaic Dataset tool returns the error message \"Field Not Editable\" when run on a BIS with editor tracking enabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183762"
+            },
+            {
+              "id": "BUG-000183808",
+              "description": "When copying or pasting all properties from one layer to another at once from a service, the service name changes.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183808"
+            },
+            {
+              "id": "BUG-000183809",
+              "description": "The discrepancy between the EndTime-StartTime and Total TravelTime _ field values in the Route table after solving with time windows in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183809"
+            },
+            {
+              "id": "BUG-000183823",
+              "description": "The Street Address locator becomes broken and disabled when manually typing an address with an intersection while using the Search Within control in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183823"
+            },
+            {
+              "id": "BUG-000183828",
+              "description": "The error message \"Modify vertices failed. Message: Unable to complete operation. Details: Internal error during object update. Location Referencing: Feature update failed\" is returned when performing an LRS cartographic realignment edit.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183828"
+            },
+            {
+              "id": "BUG-000183873",
+              "description": "Editing feature layers using the Edit Vertices tool results in duplicate centerline features in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183873"
+            },
+            {
+              "id": "BUG-000184220",
+              "description": "In ArcGIS Pro 3.6.2, the Share Indoor Positioning Data Service tool returns Error 999998 when sharing an indoor positioning dataset from a file geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184220"
+            },
+            {
+              "id": "BUG-000184276",
+              "description": "ArcGIS Pro hangs after discarding the edits made in a mobile geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184276"
+            },
+            {
+              "id": "BUG-000184280",
+              "description": "When a field has domains, the query builder control displays only values that exist in the table when a feature class is used directly as an input.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184280"
+            },
+            {
+              "id": "BUG-000184512",
+              "description": "Editing street features can put the network dataset into an unbuildable state.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184512"
+            },
+            {
+              "id": "BUG-000184563",
+              "description": "ArcGIS Pro crashes while exporting a layout or map series as a PDF when a third-party application interferes with memory access.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184563"
             }
           ]
         }
