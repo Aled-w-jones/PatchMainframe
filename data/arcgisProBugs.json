@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-05-15T08:50:12.082852",
-    "last_updated": "2026-05-15T08:50:12.082856",
+    "created": "2026-05-16T08:05:16.116082",
+    "last_updated": "2026-05-16T08:05:16.116087",
     "latest_version": "3.7",
     "latest_patch": "3.7.0",
     "total_versions": 12,
     "total_patches": 93,
-    "total_bugs": 6575,
+    "total_bugs": 6576,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-05-15T08:48:55.854738",
+      "last_scraped": "2026-05-16T08:03:59.430655",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-05-15T08:49:01.092506",
+      "last_scraped": "2026-05-16T08:04:04.830522",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-05-15T08:49:05.710181",
+      "last_scraped": "2026-05-16T08:04:09.326646",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-05-15T08:49:12.914930",
+      "last_scraped": "2026-05-16T08:04:16.128264",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-05-15T08:49:19.992693",
+      "last_scraped": "2026-05-16T08:04:22.968797",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-05-15T08:49:28.811183",
+      "last_scraped": "2026-05-16T08:04:31.590644",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-05-15T08:49:38.360981",
+      "last_scraped": "2026-05-16T08:04:41.441502",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.7",
       "total_bugs": 588,
       "total_patches": 8,
-      "last_scraped": "2026-05-15T08:49:45.579059",
+      "last_scraped": "2026-05-16T08:04:49.307872",
       "patches": [
         {
           "version": "3.3.7",
@@ -22936,7 +22936,7 @@
       "latest_patch": "3.4.5",
       "total_bugs": 513,
       "total_patches": 6,
-      "last_scraped": "2026-05-15T08:49:52.515953",
+      "last_scraped": "2026-05-16T08:04:56.405524",
       "patches": [
         {
           "version": "3.4.5",
@@ -25548,7 +25548,7 @@
       "latest_patch": "3.5.7",
       "total_bugs": 542,
       "total_patches": 8,
-      "last_scraped": "2026-05-15T08:49:59.297870",
+      "last_scraped": "2026-05-16T08:05:03.649806",
       "patches": [
         {
           "version": "3.5.7",
@@ -28317,7 +28317,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-05-15T08:50:06.843114",
+      "last_scraped": "2026-05-16T08:05:10.992512",
       "patches": [
         {
           "version": "3.6.4",
@@ -31304,11 +31304,11 @@
     "3.7": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.7/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-7-issues-addressed.pdf",
-      "pdf_size": 395936,
+      "pdf_size": 396394,
       "latest_patch": "3.7.0",
-      "total_bugs": 454,
+      "total_bugs": 455,
       "total_patches": 1,
-      "last_scraped": "2026-05-15T08:50:12.082701",
+      "last_scraped": "2026-05-16T08:05:16.115900",
       "patches": [
         {
           "version": "3.7.0",
@@ -33215,6 +33215,11 @@
               "url": "https://support.esri.com/en-us/bug/BUG-000182435"
             },
             {
+              "id": "BUG-000182436",
+              "description": "In ArcGIS Pro, the Store Templates command disables the Skip and 'Overwrite in Target' options when attempting to store subtype group layer features.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182436"
+            },
+            {
               "id": "BUG-000182469",
               "description": "Unable to overwrite a geocode service with Batch Geocode capability published to ArcGIS Enterprise on Kubernetes.",
               "url": "https://support.esri.com/en-us/bug/BUG-000182469"
@@ -33441,12 +33446,12 @@
             },
             {
               "id": "BUG-000183319",
-              "description": "Post must get the can post property from the write lock",
+              "description": "Post must get the can post property from the write lock _",
               "url": "https://support.esri.com/en-us/bug/BUG-000183319"
             },
             {
               "id": "BUG-000183359",
-              "description": "_ Utility network associations are not created when using preset templates.",
+              "description": "Utility network associations are not created when using preset templates.",
               "url": "https://support.esri.com/en-us/bug/BUG-000183359"
             },
             {
