@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-05-25T10:06:24.148747",
-    "last_updated": "2026-05-25T10:06:24.148751",
+    "created": "2026-05-26T09:57:22.108056",
+    "last_updated": "2026-05-26T09:57:22.108060",
     "latest_version": "3.7",
     "latest_patch": "3.7.0",
     "total_versions": 12,
-    "total_patches": 94,
-    "total_bugs": 6595,
+    "total_patches": 95,
+    "total_bugs": 6653,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-05-25T10:05:03.599460",
+      "last_scraped": "2026-05-26T09:56:02.505790",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-05-25T10:05:08.612571",
+      "last_scraped": "2026-05-26T09:56:07.699789",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-05-25T10:05:13.227704",
+      "last_scraped": "2026-05-26T09:56:14.140704",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-05-25T10:05:20.653410",
+      "last_scraped": "2026-05-26T09:56:21.200036",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-05-25T10:05:27.649500",
+      "last_scraped": "2026-05-26T09:56:28.291442",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-05-25T10:05:37.005097",
+      "last_scraped": "2026-05-26T09:56:37.576702",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-05-25T10:05:46.938759",
+      "last_scraped": "2026-05-26T09:56:47.298568",
       "patches": [
         {
           "version": "3.2.5",
@@ -19933,12 +19933,308 @@
     "3.3": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.3/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-3-issues-addressed.pdf",
-      "pdf_size": 693473,
-      "latest_patch": "3.3.7",
-      "total_bugs": 588,
-      "total_patches": 8,
-      "last_scraped": "2026-05-25T10:05:54.900913",
+      "pdf_size": 746202,
+      "latest_patch": "3.3.8",
+      "total_bugs": 646,
+      "total_patches": 9,
+      "last_scraped": "2026-05-26T09:56:55.676634",
       "patches": [
+        {
+          "version": "3.3.8",
+          "cumulative": false,
+          "bugs": [
+            {
+              "id": "BUG-000157242",
+              "description": "Web maps shared to ArcGIS Online from ArcGIS Pro 3.1 with related records cannot be edited directly in ArcGIS Field Maps.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000157242"
+            },
+            {
+              "id": "BUG-000160816",
+              "description": "The Path Net Distance in the Measure tool does not match the distance from the start to endpoints in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000160816"
+            },
+            {
+              "id": "BUG-000167243",
+              "description": "ArcGIS Pro crashes while returning features from multiple relationship classes associated with a feature class using an Arcade expression.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167243"
+            },
+            {
+              "id": "BUG-000170530",
+              "description": "The utility network isolation trace includes isolated features returning adjacent subnetworks.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000170530"
+            },
+            {
+              "id": "BUG-000171905",
+              "description": "Reference scale on selection drawing in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171905"
+            },
+            {
+              "id": "BUG-000172337",
+              "description": "Unable to delete a utility network or trace network dataset from the Catalog pane.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000172337"
+            },
+            {
+              "id": "BUG-000173663",
+              "description": "Worse performance in ArcGIS Pro when creating features compared to ArcMap.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000173663"
+            },
+            {
+              "id": "BUG-000174790",
+              "description": "A Geodatabase Exception occurred when modifying the labelEngine language for an annotation feature layer using ArcGIS Pro SDK for .NET 3.3.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174790"
+            },
+            {
+              "id": "BUG-000176040",
+              "description": "Running an isolation trace with the Include Isolated Features parameter returns a large number of features outside the isolation zone.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176040"
+            },
+            {
+              "id": "BUG-000176314",
+              "description": "The Append Routes tool fails with the message \"Unable to find corresponding centerlines.\" when a utility network is configured and the route ID is different from the route ID on the existing centerline(s).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176314"
+            },
+            {
+              "id": "BUG-000176315",
+              "description": "The getEstimates request on the feature service causes significant performance issues when opening an ArcGIS Pro map that contains referenced feature services.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176315"
+            },
+            {
+              "id": "BUG-000176570",
+              "description": "A validation attribute rule checking for null geometry results in ArcGIS Pro crashing.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176570"
+            },
+            {
+              "id": "BUG-000176827",
+              "description": "The Split Centerline By Point tool returns the error message \"No centerlines were found\" when the Pipeline Line utility network class is added as a subtype group layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176827"
+            },
+            {
+              "id": "BUG-000176869",
+              "description": "The Update Subnetwork tool attempts to manage the 'supportingsubnetworkname' and 'supportedsubnetworkname' classes even when the class is not configured to support this behavior.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176869"
+            },
+            {
+              "id": "BUG-000176877",
+              "description": "In ArcGIS Pro 3.5, the 'Modified in this version' option in the Error Inspector pane is not honored when switching between named versions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176877"
+            },
+            {
+              "id": "BUG-000177314",
+              "description": "Update the stored procedures for geodatabase metadata updates in the default transaction to use autonomous transactions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177314"
+            },
+            {
+              "id": "BUG-000177429",
+              "description": "The Append tool populates an unexpected value in the field when a default domain value is assigned to a subtype and is the first record in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177429"
+            },
+            {
+              "id": "BUG-000177433",
+              "description": "Unexpected layer extent updates occur due to improper initialization of M- value when updating the layer's metadata.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000177433"
+            },
+            {
+              "id": "BUG-000178139",
+              "description": "The Export Subnetwork tool fails to delete disabled controllers from the subnetwork when active controllers are present.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178139"
+            },
+            {
+              "id": "BUG-000178628",
+              "description": "The Retire Route tool displays a warning indicating a linear referencing system (LRS) feature service may introduce gaps into the network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178628"
+            },
+            {
+              "id": "BUG-000178701",
+              "description": "Full extent validation is unable to check if the areas are dirty before exiting.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178701"
+            },
+            {
+              "id": "BUG-000178715",
+              "description": "Some edit operations in the Change Version dialog box cause unexpected version difference requests to be sent.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178715"
+            },
+            {
+              "id": "BUG-000178724",
+              "description": "Closing the Version Changes window during an insert causes the subsequent inserts to throw unexpected version differences requests when using a topology.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178724"
+            },
+            {
+              "id": "BUG-000178747",
+              "description": "Features from a subtype group layer disappear when using the Move, Rotate, or Scale tools in a local or global 3D scene.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000178747"
+            },
+            {
+              "id": "BUG-000179182",
+              "description": "ArcGIS Pro crashes on running the append operation on a feature class (consisting of an attribute rule referencing the structure junction feature class from the utility network feature dataset) residing within an Oracle enterprise geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179182"
+            },
+            {
+              "id": "BUG-000179206",
+              "description": "Performance degradation in Trace with subnetworks containing large cardinalities of connectivity associations with nonspatial objects.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179206"
+            },
+            {
+              "id": "BUG-000179223",
+              "description": "Running the Retire tool on a segment of a gapped route results in random segments of one of the line events being retired incorrectly.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179223"
+            },
+            {
+              "id": "BUG-000179357",
+              "description": "Running an isolation trace returns the error message “Warning 002535: No isolating feature was discovered” even when isolating features are expected to be present.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179357"
+            },
+            {
+              "id": "BUG-000179563",
+              "description": "The attribute rule analyzer runs slowly on large workspaces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179563"
+            },
+            {
+              "id": "BUG-000179618",
+              "description": "All subtype names are displayed in the pop-up when selecting a feature with relationships between a feature class without subtypes and a subtype group layer in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179618"
+            },
+            {
+              "id": "BUG-000179749",
+              "description": "The Update Subnetwork tool fails and returns the 999999 error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179749"
+            },
+            {
+              "id": "BUG-000179774",
+              "description": "A subnetwork trace operation for Update Subnetwork inefficiently queries the Subnetworks table for each device that is a controller.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179774"
+            },
+            {
+              "id": "BUG-000179851",
+              "description": "The Update Subnetwork tool operation fails and returns the \"003362: The subnetwork is not dirty.\" error message when there is an active dirty controller and a deleted clean controller.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179851"
+            },
+            {
+              "id": "BUG-000179856",
+              "description": "The visibility scale range is not honored for the dirty areas layer in a utility network feature service in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179856"
+            },
+            {
+              "id": "BUG-000179901",
+              "description": "Utility network traces do not honor the bidirectional terminal configuration on a low-voltage switch.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179901"
+            },
+            {
+              "id": "BUG-000180226",
+              "description": "Performance degradation in a disabled network topology caused by redundant updates to existing dirty subnetworks.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180226"
+            },
+            {
+              "id": "BUG-000180338",
+              "description": "In ArcGIS Pro, adding a vertex to a utility network line in a 3D scene also creates unintended vertices on other vertically aligned parallel lines that share the same connectivity rules.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180338"
+            },
+            {
+              "id": "BUG-000180523",
+              "description": "The Generate Routes tool runs slowly when processing a subset of engineering network features without a configured continuous network.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180523"
+            },
+            {
+              "id": "BUG-000181387",
+              "description": "When upgrading the geodatabase to ArcGIS Server 11.3, the spatial indexes and index types are invalidated.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181387"
+            },
+            {
+              "id": "BUG-000181414",
+              "description": "Optimize the overlap detection logic during the update subnetwork operation.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181414"
+            },
+            {
+              "id": "BUG-000181548",
+              "description": "For the linear referencing system (LRS) dataset, when registering the new LRS networks, these newly created networks do not register as part of the LRS dataset until a new session of ArcGIS Pro is opened.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181548"
+            },
+            {
+              "id": "BUG-000181921",
+              "description": "Within the Update Subnetwork tool, adjacent subnetworks are not traced during overlap detection.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181921"
+            },
+            {
+              "id": "BUG-000181983",
+              "description": "While configuring pop-ups on a Standalone table in ArcGIS Pro 3.3 using the FeatureSetByName($map, “table name”) function, an error “Invalid _ expression. Error on line 1. Object not found $map” is returned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181983"
+            },
+            {
+              "id": "BUG-000181984",
+              "description": "The Update Subnetwork tool fails and returns the error message, “The subnetwork is not dirty”, when multiple controllers with different statuses are present.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181984"
+            },
+            {
+              "id": "BUG-000182052",
+              "description": "The Modify Subnetwork Controller pane does not load nonspatial objects participating in a group layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182052"
+            },
+            {
+              "id": "BUG-000182056",
+              "description": "When using direct-write, subnetlines and controllers in the subnetworks table are marked as dirty during network topology disablement.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182056"
+            },
+            {
+              "id": "BUG-000182174",
+              "description": "Append Routes fails with \"ERROR 000426: Out of Memory\" when the 'Consider existing centerlines' parameter is enabled on large LRS networks (~5.5M centerlines).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182174"
+            },
+            {
+              "id": "BUG-000182391",
+              "description": "The createReplica REST operation fails against SAP HANA Cloud referenced feature services and returns the \"Unable to complete operation. Error in performing CreateReplica operation.” error message.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182391"
+            },
+            {
+              "id": "BUG-000182510",
+              "description": "Editing editor tracking enabled data in ArcGIS Pro using the Microsoft Entra Integrated authentication type for Microsoft Azure SQL displays the user as ESRI ANONYMOUS.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182510"
+            },
+            {
+              "id": "BUG-000182652",
+              "description": "_ Prune fails when executed on an Oracle 11.3 geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182652"
+            },
+            {
+              "id": "BUG-000182684",
+              "description": "Properties of a custom template for a reference feature layer are not updated when published as a web map to the ArcGIS Enterprise portal using an Oracle database.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182684"
+            },
+            {
+              "id": "BUG-000182705",
+              "description": "The enterprise geodatabase connection keeps failing in ArcGIS Pro when using the Microsoft Entra Integrated authentication type for Microsoft Azure SQL.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182705"
+            },
+            {
+              "id": "BUG-000182710",
+              "description": "The differences operation in ArcGIS REST APIs fails to return feature edits for utility network feature services stored in an Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182710"
+            },
+            {
+              "id": "BUG-000182864",
+              "description": "Updating a web map containing a branch versioned service from ArcGIS Pro with subtype group layers causes the 'layerID' to change.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182864"
+            },
+            {
+              "id": "BUG-000183468",
+              "description": "When running the Derive Event Measures geoprocessing tool on features in a server-based layer that participates in a branch-versioned linear referencing system (LRS) dataset, the tool fails if more than 18 to 20 records are selected.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183468"
+            },
+            {
+              "id": "BUG-000183598",
+              "description": "Upgrading from Utility Network Version 6 to Utility Network Version 7 fails in SAP HANA.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183598"
+            },
+            {
+              "id": "BUG-000184280",
+              "description": "When a field has domains, the query builder control displays only values that exist in the table when a feature class is used directly as an input.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184280"
+            },
+            {
+              "id": "BUG-000184563",
+              "description": "ArcGIS Pro crashes while exporting a layout or map series as a PDF when a third-party application interferes with memory access.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184563"
+            }
+          ]
+        },
         {
           "version": "3.3.7",
           "cumulative": false,
@@ -20191,7 +20487,7 @@
             },
             {
               "id": "BUG-000171641",
-              "description": "When the Calculate Geometry geoprocessing tool is running on an enterprise geodatabase polygon feature class with attachments enabled and 65 or more",
+              "description": "When the Calculate Geometry geoprocessing tool is running on an enterprise geodatabase polygon feature class with attachments enabled and 65 or more records selected, the tool complete, but the values are applied to the wrong records.",
               "url": "https://support.esri.com/en-us/bug/BUG-000171641"
             },
             {
@@ -20593,7 +20889,7 @@
             },
             {
               "id": "BUG-000171779",
-              "description": "When the Realign tool is run on the LRS dataset created with a geographic coordinate system, the measure does not appear to be updating correctly, and the calibration point does not update.",
+              "description": "_ When the Realign tool is run on the LRS dataset created with a geographic coordinate system, the measure does not appear to be updating correctly, and the calibration point does not update.",
               "url": "https://support.esri.com/en-us/bug/BUG-000171779"
             },
             {
@@ -22936,7 +23232,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-05-25T10:06:02.527776",
+      "last_scraped": "2026-05-26T09:57:02.942139",
       "patches": [
         {
           "version": "3.4.6",
@@ -25649,7 +25945,7 @@
       "latest_patch": "3.5.7",
       "total_bugs": 542,
       "total_patches": 8,
-      "last_scraped": "2026-05-25T10:06:09.902838",
+      "last_scraped": "2026-05-26T09:57:09.575844",
       "patches": [
         {
           "version": "3.5.7",
@@ -28418,7 +28714,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-05-25T10:06:18.484897",
+      "last_scraped": "2026-05-26T09:57:17.001164",
       "patches": [
         {
           "version": "3.6.4",
@@ -31409,7 +31705,7 @@
       "latest_patch": "3.7.0",
       "total_bugs": 455,
       "total_patches": 1,
-      "last_scraped": "2026-05-25T10:06:24.148598",
+      "last_scraped": "2026-05-26T09:57:22.107912",
       "patches": [
         {
           "version": "3.7.0",
