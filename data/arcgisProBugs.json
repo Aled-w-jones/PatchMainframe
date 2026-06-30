@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-06-29T10:59:28.988486",
-    "last_updated": "2026-06-29T10:59:28.988490",
+    "created": "2026-06-30T09:35:25.441327",
+    "last_updated": "2026-06-30T09:35:25.441330",
     "latest_version": "3.7",
     "latest_patch": "3.7.0",
     "total_versions": 12,
     "total_patches": 96,
-    "total_bugs": 6688,
+    "total_bugs": 6686,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-06-29T10:58:12.435324",
+      "last_scraped": "2026-06-30T09:34:07.457339",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-06-29T10:58:17.138795",
+      "last_scraped": "2026-06-30T09:34:12.499889",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-06-29T10:58:21.773682",
+      "last_scraped": "2026-06-30T09:34:17.296495",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-06-29T10:58:29.022230",
+      "last_scraped": "2026-06-30T09:34:24.695022",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-06-29T10:58:35.776365",
+      "last_scraped": "2026-06-30T09:34:31.917889",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-06-29T10:58:44.371432",
+      "last_scraped": "2026-06-30T09:34:40.716876",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-06-29T10:58:53.901331",
+      "last_scraped": "2026-06-30T09:34:50.270575",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-06-29T10:59:01.933775",
+      "last_scraped": "2026-06-30T09:34:58.093211",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-06-29T10:59:08.982556",
+      "last_scraped": "2026-06-30T09:35:05.660597",
       "patches": [
         {
           "version": "3.4.6",
@@ -25946,11 +25946,11 @@
     "3.5": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.5/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-5-issues-addressed.pdf",
-      "pdf_size": 534039,
+      "pdf_size": 533241,
       "latest_patch": "3.5.8",
-      "total_bugs": 576,
+      "total_bugs": 574,
       "total_patches": 9,
-      "last_scraped": "2026-06-29T10:59:16.156837",
+      "last_scraped": "2026-06-30T09:35:12.693008",
       "patches": [
         {
           "version": "3.5.8",
@@ -26115,16 +26115,6 @@
               "id": "BUG-000184276",
               "description": "ArcGIS Pro freezes after discarding the edits made in a mobile geodatabase.",
               "url": "https://support.esri.com/en-us/bug/BUG-000184276"
-            },
-            {
-              "id": "BUG-000184776",
-              "description": "The Link Chart ribbon and Investigation context menu options are unexpectedly disabled.",
-              "url": "https://support.esri.com/en-us/bug/BUG-000184776"
-            },
-            {
-              "id": "BUG-000185652",
-              "description": "Make the Validate Consistency option default to False in the Trace tool.",
-              "url": "https://support.esri.com/en-us/bug/BUG-000185652"
             }
           ]
         },
@@ -28895,7 +28885,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-06-29T10:59:23.742677",
+      "last_scraped": "2026-06-30T09:35:20.256199",
       "patches": [
         {
           "version": "3.6.4",
@@ -31886,7 +31876,7 @@
       "latest_patch": "3.7.0",
       "total_bugs": 455,
       "total_patches": 1,
-      "last_scraped": "2026-06-29T10:59:28.988342",
+      "last_scraped": "2026-06-30T09:35:25.441186",
       "patches": [
         {
           "version": "3.7.0",
