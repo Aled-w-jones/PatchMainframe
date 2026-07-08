@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-07-07T09:40:57.459555",
-    "last_updated": "2026-07-07T09:40:57.459560",
+    "created": "2026-07-08T08:27:46.336061",
+    "last_updated": "2026-07-08T08:27:46.336065",
     "latest_version": "3.7",
-    "latest_patch": "3.7.0",
+    "latest_patch": "3.7.1",
     "total_versions": 12,
-    "total_patches": 96,
-    "total_bugs": 6686,
+    "total_patches": 97,
+    "total_bugs": 6696,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-07-07T09:39:37.973519",
+      "last_scraped": "2026-07-08T08:26:25.137723",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-07-07T09:39:43.231032",
+      "last_scraped": "2026-07-08T08:26:30.495778",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-07-07T09:39:48.639498",
+      "last_scraped": "2026-07-08T08:26:35.430195",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-07-07T09:39:56.032632",
+      "last_scraped": "2026-07-08T08:26:42.551044",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-07-07T09:40:02.939884",
+      "last_scraped": "2026-07-08T08:26:49.450744",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-07-07T09:40:12.081978",
+      "last_scraped": "2026-07-08T08:26:58.842412",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-07-07T09:40:21.833882",
+      "last_scraped": "2026-07-08T08:27:08.988170",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-07-07T09:40:29.819876",
+      "last_scraped": "2026-07-08T08:27:17.562388",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-07-07T09:40:37.224955",
+      "last_scraped": "2026-07-08T08:27:25.177869",
       "patches": [
         {
           "version": "3.4.6",
@@ -25950,7 +25950,7 @@
       "latest_patch": "3.5.8",
       "total_bugs": 574,
       "total_patches": 9,
-      "last_scraped": "2026-07-07T09:40:44.706271",
+      "last_scraped": "2026-07-08T08:27:32.404037",
       "patches": [
         {
           "version": "3.5.8",
@@ -28885,7 +28885,7 @@
       "latest_patch": "3.6.4",
       "total_bugs": 590,
       "total_patches": 5,
-      "last_scraped": "2026-07-07T09:40:52.213065",
+      "last_scraped": "2026-07-08T08:27:40.658332",
       "patches": [
         {
           "version": "3.6.4",
@@ -31872,12 +31872,68 @@
     "3.7": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.7/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-7-issues-addressed.pdf",
-      "pdf_size": 396394,
-      "latest_patch": "3.7.0",
-      "total_bugs": 455,
-      "total_patches": 1,
-      "last_scraped": "2026-07-07T09:40:57.459376",
+      "pdf_size": 403034,
+      "latest_patch": "3.7.1",
+      "total_bugs": 465,
+      "total_patches": 2,
+      "last_scraped": "2026-07-08T08:27:46.335905",
       "patches": [
+        {
+          "version": "3.7.1",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000181321",
+              "description": "ArcGIS Pro becomes unresponsive upon opening attribute tables when numerous relationship classes are defined (CSharedQueue Stall timeout).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181321"
+            },
+            {
+              "id": "BUG-000182076",
+              "description": "GeoAnalytics Desktop tools fail when using a named user license in a disconnected environment.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182076"
+            },
+            {
+              "id": "BUG-000183514",
+              "description": "The attribute tables of all feature classes participating in a relationship do not load in ArcGIS Pro 3.5 and later.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183514"
+            },
+            {
+              "id": "BUG-000183592",
+              "description": "Query operations on reference feature services sourced from PostgreSQL and PostGIS geometry types result in ST setSRID using a spatial reference _ ID value of -1, causing avoidable conversions and degrading performance.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183592"
+            },
+            {
+              "id": "BUG-000184197",
+              "description": "When editing parcel fabric features, selecting a feature with the Move tool opens an 'Initializing tool…' dialog box that persists for several minutes before the feature can be moved.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184197"
+            },
+            {
+              "id": "BUG-000184402",
+              "description": "ArcGIS Drone2Map 2025.2.1 produces distorted and misoriented ortho.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184402"
+            },
+            {
+              "id": "BUG-000184431",
+              "description": "A specific hyperlink causes the PDF export to hang indefinitely.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184431"
+            },
+            {
+              "id": "BUG-000184470",
+              "description": "Map rendering in the Error Inspector Preview tab leads to continuous performance degradation when working with branch versioned feature services in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184470"
+            },
+            {
+              "id": "BUG-000185293",
+              "description": "The Link Chart tab on the ribbon and the Investigation context menu options are unexpectedly disabled.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185293"
+            },
+            {
+              "id": "BUG-000185332",
+              "description": "Map selection is slow when the attribute table is open for large datasets.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185332"
+            }
+          ]
+        },
         {
           "version": "3.7.0",
           "cumulative": false,
