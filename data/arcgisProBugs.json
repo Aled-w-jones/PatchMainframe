@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-08-10T07:39:57.830863",
-    "last_updated": "2026-08-10T07:39:57.830867",
+    "created": "2026-08-11T07:06:14.280401",
+    "last_updated": "2026-08-11T07:06:14.280405",
     "latest_version": "3.7",
     "latest_patch": "3.7.1",
     "total_versions": 12,
-    "total_patches": 97,
-    "total_bugs": 6697,
+    "total_patches": 98,
+    "total_bugs": 6721,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-08-10T07:38:55.798149",
+      "last_scraped": "2026-08-11T07:05:14.186045",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-08-10T07:38:59.838731",
+      "last_scraped": "2026-08-11T07:05:18.195625",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-08-10T07:39:03.600836",
+      "last_scraped": "2026-08-11T07:05:21.890610",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-08-10T07:39:09.240809",
+      "last_scraped": "2026-08-11T07:05:26.951940",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-08-10T07:39:14.956969",
+      "last_scraped": "2026-08-11T07:05:32.047807",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-08-10T07:39:22.012772",
+      "last_scraped": "2026-08-11T07:05:38.944279",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-08-10T07:39:29.603180",
+      "last_scraped": "2026-08-11T07:05:46.390122",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-08-10T07:39:35.793425",
+      "last_scraped": "2026-08-11T07:05:52.477596",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-08-10T07:39:41.646435",
+      "last_scraped": "2026-08-11T07:05:58.661486",
       "patches": [
         {
           "version": "3.4.6",
@@ -25950,7 +25950,7 @@
       "latest_patch": "3.5.8",
       "total_bugs": 575,
       "total_patches": 9,
-      "last_scraped": "2026-08-10T07:39:47.290742",
+      "last_scraped": "2026-08-11T07:06:04.044095",
       "patches": [
         {
           "version": "3.5.8",
@@ -28886,12 +28886,138 @@
     "3.6": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.6/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-6-issues-addressed.pdf",
-      "pdf_size": 684246,
-      "latest_patch": "3.6.4",
-      "total_bugs": 590,
-      "total_patches": 5,
-      "last_scraped": "2026-08-10T07:39:53.263325",
+      "pdf_size": 484330,
+      "latest_patch": "3.6.5",
+      "total_bugs": 614,
+      "total_patches": 6,
+      "last_scraped": "2026-08-11T07:06:09.993182",
       "patches": [
+        {
+          "version": "3.6.5",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000179465",
+              "description": "Running the Align Features workflow on a parcel fabric service after validating topology can cause the line to break, leading to topological validation errors in the Error Inspector tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179465"
+            },
+            {
+              "id": "BUG-000179547",
+              "description": "Performance of the Feature Outline Masks tool is slower for annotation layers than in ArcGIS Pro 3.2.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000179547"
+            },
+            {
+              "id": "BUG-000180921",
+              "description": "Provide secure access path for ArcGIS Pro notebooks.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180921"
+            },
+            {
+              "id": "BUG-000181321",
+              "description": "ArcGIS Pro becomes unresponsive upon opening attribute tables when numerous relationship classes are defined (CSharedQueue Stall timeout).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181321"
+            },
+            {
+              "id": "BUG-000181342",
+              "description": "ArcGIS Pro crashes when performing the Model to World Transformation for BIM data.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181342"
+            },
+            {
+              "id": "BUG-000181387",
+              "description": "When upgrading the geodatabase to ArcGIS Server 11.3, the spatial indexes and index types are invalidated.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181387"
+            },
+            {
+              "id": "BUG-000182052",
+              "description": "The Modify Subnetwork Controller pane does not load nonspatial objects participating in a group layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182052"
+            },
+            {
+              "id": "BUG-000182076",
+              "description": "GeoAnalytics Desktop tools fail when using a named user license in a disconnected environment.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182076"
+            },
+            {
+              "id": "BUG-000182088",
+              "description": "Cannot use Locator View in ArcGIS Pro as an exclamation mark appears.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182088"
+            },
+            {
+              "id": "BUG-000182115",
+              "description": "In ArcGIS Pro, the Generate Drive Time Trade Areas (Business Analyst) tool failed with error 080381 when using online Business Analyst data but works with local data.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182115"
+            },
+            {
+              "id": "BUG-000182397",
+              "description": "Shared feature templates stored on a reference feature service return an empty definition when a German special character is present in the attribute properties of the feature template.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182397"
+            },
+            {
+              "id": "BUG-000182414",
+              "description": "Auto Rematch overwrites the original fields from the input table to <null> when geocoding a table with a composite locator, and the Output Fields parameter is set to \"Minimal and User Fields\" in ArcGIS Pro 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182414"
+            },
+            {
+              "id": "BUG-000182705",
+              "description": "In ArcGIS Pro with the Microsoft Entra Integrated authentication type for Microsoft Azure SQL, the enterprise geodatabase connection keeps failing.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182705"
+            },
+            {
+              "id": "BUG-000182951",
+              "description": "Defense Mapping Multinational Geospatial Co-Production Program (MGCP) Topographic Map (MTM) editing workflows have significant performance degradation after cumulative edits in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182951"
+            },
+            {
+              "id": "BUG-000183514",
+              "description": "The attribute tables of all feature classes participating in a relationship do not load in ArcGIS Pro 3.5 and later.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183514"
+            },
+            {
+              "id": "BUG-000183606",
+              "description": "Unable to add Parquet files to ArcGIS Pro on a machine running Windows Server 2019.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183606"
+            },
+            {
+              "id": "BUG-000183611",
+              "description": "GeometryEngine.Instance.ProjectEx returns incorrect vertical units in ArcGIS Pro SDK for .NET 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183611"
+            },
+            {
+              "id": "BUG-000183744",
+              "description": "SpatialReference.Wkt returns OGC WKT2 instead of Esri WKT in ArcGIS Pro SDK for .NET 3.6.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183744"
+            },
+            {
+              "id": "BUG-000184220",
+              "description": "In ArcGIS Pro 3.6.2, the Share Indoor Positioning Data Service tool returns Error 999998 when sharing an indoor positioning dataset from a file geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184220"
+            },
+            {
+              "id": "BUG-000184276",
+              "description": "ArcGIS Pro hangs after discarding the edits made in a mobile geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184276"
+            },
+            {
+              "id": "BUG-000184431",
+              "description": "A specific hyperlink causes the PDF export to hang indefinitely.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184431"
+            },
+            {
+              "id": "BUG-000184548",
+              "description": "CAD multipatches are offset and display at the wrong location after upgrading to ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184548"
+            },
+            {
+              "id": "BUG-000184777",
+              "description": "Link Chart ribbon and Investigation context menu options are disabled unexpectedly.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184777"
+            },
+            {
+              "id": "BUG-000184790",
+              "description": "Data Model Designer loses user-drawn endpoints when saved design is reloaded.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184790"
+            }
+          ]
+        },
         {
           "version": "3.6.4",
           "cumulative": true,
@@ -29842,7 +29968,7 @@
             },
             {
               "id": "BUG-000161119",
-              "description": "ArcGIS Pro returns the \"Staging failed\" error message and prevents publishing when attempting to share a layer with related layers or tables not present in the map, even though the publishing analyzer message returns a warning message.",
+              "description": "ArcGIS Pro returns the \"Staging failed\" error message and prevents publishing when attempting to share a layer with related layers or tables not",
               "url": "https://support.esri.com/en-us/bug/BUG-000161119"
             },
             {
@@ -31881,7 +32007,7 @@
       "latest_patch": "3.7.1",
       "total_bugs": 465,
       "total_patches": 2,
-      "last_scraped": "2026-08-10T07:39:57.830698",
+      "last_scraped": "2026-08-11T07:06:14.280249",
       "patches": [
         {
           "version": "3.7.1",
