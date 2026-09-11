@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "created": "2026-09-10T10:42:40.859190",
-    "last_updated": "2026-09-10T10:42:40.859193",
+    "created": "2026-09-11T10:41:32.876531",
+    "last_updated": "2026-09-11T10:41:32.876535",
     "latest_version": "3.7",
     "latest_patch": "3.7.1",
     "total_versions": 12,
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-09-10T10:41:55.531266",
+      "last_scraped": "2026-09-11T10:40:31.709392",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-09-10T10:41:58.601714",
+      "last_scraped": "2026-09-11T10:40:35.772143",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-09-10T10:42:01.527888",
+      "last_scraped": "2026-09-11T10:40:39.294746",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-09-10T10:42:05.596881",
+      "last_scraped": "2026-09-11T10:40:44.655699",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-09-10T10:42:09.656055",
+      "last_scraped": "2026-09-11T10:40:50.183068",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-09-10T10:42:14.716168",
+      "last_scraped": "2026-09-11T10:40:56.650767",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-09-10T10:42:20.308800",
+      "last_scraped": "2026-09-11T10:41:04.341073",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-09-10T10:42:24.890437",
+      "last_scraped": "2026-09-11T10:41:10.963147",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-09-10T10:42:29.170639",
+      "last_scraped": "2026-09-11T10:41:16.733882",
       "patches": [
         {
           "version": "3.4.6",
@@ -25950,7 +25950,7 @@
       "latest_patch": "3.5.8",
       "total_bugs": 575,
       "total_patches": 9,
-      "last_scraped": "2026-09-10T10:42:33.164909",
+      "last_scraped": "2026-09-11T10:41:22.425366",
       "patches": [
         {
           "version": "3.5.8",
@@ -28890,7 +28890,7 @@
       "latest_patch": "3.6.5",
       "total_bugs": 614,
       "total_patches": 6,
-      "last_scraped": "2026-09-10T10:42:37.734436",
+      "last_scraped": "2026-09-11T10:41:28.600297",
       "patches": [
         {
           "version": "3.6.5",
@@ -32007,7 +32007,7 @@
       "latest_patch": "3.7.1",
       "total_bugs": 465,
       "total_patches": 2,
-      "last_scraped": "2026-09-10T10:42:40.859059",
+      "last_scraped": "2026-09-11T10:41:32.876398",
       "patches": [
         {
           "version": "3.7.1",
