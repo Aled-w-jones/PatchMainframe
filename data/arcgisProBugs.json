@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-09-16T10:55:32.725504",
-    "last_updated": "2026-09-16T10:55:32.725509",
+    "created": "2026-09-17T11:03:01.628556",
+    "last_updated": "2026-09-17T11:03:01.628559",
     "latest_version": "3.7",
     "latest_patch": "3.7.1",
     "total_versions": 12,
-    "total_patches": 98,
-    "total_bugs": 6721,
+    "total_patches": 99,
+    "total_bugs": 6743,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-09-16T10:54:27.334713",
+      "last_scraped": "2026-09-17T11:02:17.146090",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-09-16T10:54:31.622408",
+      "last_scraped": "2026-09-17T11:02:20.480126",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-09-16T10:54:35.035460",
+      "last_scraped": "2026-09-17T11:02:23.465200",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-09-16T10:54:40.901162",
+      "last_scraped": "2026-09-17T11:02:27.561840",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-09-16T10:54:46.670080",
+      "last_scraped": "2026-09-17T11:02:31.621161",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-09-16T10:54:54.090538",
+      "last_scraped": "2026-09-17T11:02:36.460969",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-09-16T10:55:02.239095",
+      "last_scraped": "2026-09-17T11:02:41.477627",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-09-16T10:55:09.041652",
+      "last_scraped": "2026-09-17T11:02:45.887654",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-09-16T10:55:15.058656",
+      "last_scraped": "2026-09-17T11:02:50.400649",
       "patches": [
         {
           "version": "3.4.6",
@@ -25946,12 +25946,128 @@
     "3.5": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.5/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-5-issues-addressed.pdf",
-      "pdf_size": 533733,
-      "latest_patch": "3.5.8",
-      "total_bugs": 575,
-      "total_patches": 9,
-      "last_scraped": "2026-09-16T10:55:21.516056",
+      "pdf_size": 548451,
+      "latest_patch": "3.5.9",
+      "total_bugs": 597,
+      "total_patches": 10,
+      "last_scraped": "2026-09-17T11:02:54.235275",
       "patches": [
+        {
+          "version": "3.5.9",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000133035",
+              "description": "The angle of point features with a rotation field is not adjusted when rotating several objects.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000133035"
+            },
+            {
+              "id": "BUG-000137329",
+              "description": "The edits of the points for positions in the Make Route Event Layer in ArcGIS Pro are not displayed unless the cache settings are changed.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000137329"
+            },
+            {
+              "id": "BUG-000167582",
+              "description": "The Create Topology wizard does not add the new topology to the active map when the data source is an SQLite mobile geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167582"
+            },
+            {
+              "id": "BUG-000171187",
+              "description": "Identify the network index inconsistency during the trace and pass the information to the trace framework.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171187"
+            },
+            {
+              "id": "BUG-000174200",
+              "description": "The \"Cannot connect to datasource\" error message is returned when opening the Manage Versions pane after adding a 64-character description to a branch version and when there are 1,300 branch versions in the Oracle geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000174200"
+            },
+            {
+              "id": "BUG-000176043",
+              "description": "The utility network layer becomes out of sync with other layers when changing moments or versions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176043"
+            },
+            {
+              "id": "BUG-000180607",
+              "description": "Attempts to generate a licensed file geodatabase containing a network return an error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000180607"
+            },
+            {
+              "id": "BUG-000181321",
+              "description": "ArcGIS Pro becomes unresponsive upon opening attribute tables when numerous relationship classes are defined (CSharedQueue Stall timeout).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181321"
+            },
+            {
+              "id": "BUG-000182038",
+              "description": "The vector tile package labels do not display for Japanese characters in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182038"
+            },
+            {
+              "id": "BUG-000183398",
+              "description": "Improve versatility of network diagrams by permitting smaller cells in the Add Grid Layout tool",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183398"
+            },
+            {
+              "id": "BUG-000183460",
+              "description": "Improve the performance of the propagation step on the subnetwork traces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183460"
+            },
+            {
+              "id": "BUG-000183514",
+              "description": "The attribute tables of all feature classes participating in a relationship do not load in ArcGIS Pro 3.5 and later.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183514"
+            },
+            {
+              "id": "BUG-000183896",
+              "description": "DifferenceCursor in CoreHost does not release the version lock after disposal on a branch versioned feature service.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183896"
+            },
+            {
+              "id": "BUG-000184613",
+              "description": "Certain routes fail when using the Apply Event Behaviors tool after extending the route in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184613"
+            },
+            {
+              "id": "BUG-000184678",
+              "description": "ST Geometry, ST DOMAIN METHODS, and ODCIINDEXCREATE use an _ _ _ incorrect filter to fetch input geometries for the domain index.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184678"
+            },
+            {
+              "id": "BUG-000184718",
+              "description": "The Process Edits/Apply Event Behaviors tool has a long processing time against an ArcGIS Utility Network with ArcGIS Pipeline Referencing, which uses a geographic coordinate system (GCS).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184718"
+            },
+            {
+              "id": "BUG-000184885",
+              "description": "The Import Subnetwork Controllers tool does not check for or block invalid characters in the subnetwork name and subnetwork controller name.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184885"
+            },
+            {
+              "id": "BUG-000185243",
+              "description": "The output of the Trace and Export Subnetwork tools does not include related records when the relationship class is not based on GlobalID.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185243"
+            },
+            {
+              "id": "BUG-000185652",
+              "description": "Set the Validate Consistency option to 'False' by default in the Trace tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185652"
+            },
+            {
+              "id": "BUG-000185755",
+              "description": "The picklists for the Route ID Field and Route Name Field parameters display incorrect or missing fields in the Update Measures From LRS tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185755"
+            },
+            {
+              "id": "BUG-000186214",
+              "description": "The ArcGIS Workflow Manager job card in ArcGIS Pro does not properly display webhook dependencies.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186214"
+            },
+            {
+              "id": "BUG-000186641",
+              "description": "Propagated bits are not always recombined properly in loops.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186641"
+            }
+          ]
+        },
         {
           "version": "3.5.8",
           "cumulative": true,
@@ -28890,7 +29006,7 @@
       "latest_patch": "3.6.5",
       "total_bugs": 614,
       "total_patches": 6,
-      "last_scraped": "2026-09-16T10:55:27.956257",
+      "last_scraped": "2026-09-17T11:02:58.774990",
       "patches": [
         {
           "version": "3.6.5",
@@ -32007,7 +32123,7 @@
       "latest_patch": "3.7.1",
       "total_bugs": 465,
       "total_patches": 2,
-      "last_scraped": "2026-09-16T10:55:32.725317",
+      "last_scraped": "2026-09-17T11:03:01.628468",
       "patches": [
         {
           "version": "3.7.1",
