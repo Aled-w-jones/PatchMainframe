@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "created": "2026-10-14T11:17:23.188805",
-    "last_updated": "2026-10-14T11:17:23.188810",
+    "created": "2026-10-15T10:55:58.389061",
+    "last_updated": "2026-10-15T10:55:58.389065",
     "latest_version": "3.7",
-    "latest_patch": "3.7.1",
+    "latest_patch": "3.7.3",
     "total_versions": 12,
-    "total_patches": 99,
-    "total_bugs": 6743,
+    "total_patches": 100,
+    "total_bugs": 6788,
     "versions_covered": [
       "2.6",
       "2.7",
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-10-14T11:16:17.822886",
+      "last_scraped": "2026-10-15T10:54:52.864869",
       "patches": [
         {
           "version": "2.6.10",
@@ -1822,7 +1822,7 @@
       "latest_patch": "2.7.7",
       "total_bugs": 410,
       "total_patches": 8,
-      "last_scraped": "2026-10-14T11:16:22.144507",
+      "last_scraped": "2026-10-15T10:54:56.794384",
       "patches": [
         {
           "version": "2.7.7",
@@ -3931,7 +3931,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 387,
       "total_patches": 9,
-      "last_scraped": "2026-10-14T11:16:25.917733",
+      "last_scraped": "2026-10-15T10:55:00.316459",
       "patches": [
         {
           "version": "2.8.8",
@@ -5931,7 +5931,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-10-14T11:16:31.687935",
+      "last_scraped": "2026-10-15T10:55:05.459343",
       "patches": [
         {
           "version": "2.9.14",
@@ -9147,7 +9147,7 @@
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-10-14T11:16:37.313897",
+      "last_scraped": "2026-10-15T10:55:11.140844",
       "patches": [
         {
           "version": "3.0.6",
@@ -11975,7 +11975,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-10-14T11:16:44.605293",
+      "last_scraped": "2026-10-15T10:55:18.696775",
       "patches": [
         {
           "version": "3.1.8",
@@ -15800,7 +15800,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-10-14T11:16:52.581652",
+      "last_scraped": "2026-10-15T10:55:26.897258",
       "patches": [
         {
           "version": "3.2.5",
@@ -19937,7 +19937,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 647,
       "total_patches": 9,
-      "last_scraped": "2026-10-14T11:16:59.313936",
+      "last_scraped": "2026-10-15T10:55:33.631038",
       "patches": [
         {
           "version": "3.3.8",
@@ -23237,7 +23237,7 @@
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-10-14T11:17:05.609441",
+      "last_scraped": "2026-10-15T10:55:40.523707",
       "patches": [
         {
           "version": "3.4.6",
@@ -25950,7 +25950,7 @@
       "latest_patch": "3.5.9",
       "total_bugs": 597,
       "total_patches": 10,
-      "last_scraped": "2026-10-14T11:17:11.709753",
+      "last_scraped": "2026-10-15T10:55:47.251872",
       "patches": [
         {
           "version": "3.5.9",
@@ -29006,7 +29006,7 @@
       "latest_patch": "3.6.5",
       "total_bugs": 614,
       "total_patches": 6,
-      "last_scraped": "2026-10-14T11:17:18.507395",
+      "last_scraped": "2026-10-15T10:55:53.610651",
       "patches": [
         {
           "version": "3.6.5",
@@ -32119,12 +32119,243 @@
     "3.7": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.7/get-started/release-notes.htm",
       "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-7-issues-addressed.pdf",
-      "pdf_size": 576754,
-      "latest_patch": "3.7.1",
-      "total_bugs": 465,
-      "total_patches": 2,
-      "last_scraped": "2026-10-14T11:17:23.188652",
+      "pdf_size": 428999,
+      "latest_patch": "3.7.3",
+      "total_bugs": 510,
+      "total_patches": 3,
+      "last_scraped": "2026-10-15T10:55:58.388916",
       "patches": [
+        {
+          "version": "3.7.3",
+          "cumulative": true,
+          "bugs": [
+            {
+              "id": "BUG-000134031",
+              "description": "Registering with an ArcGIS Enterprise geodatabase does not allow setting a coordinate system value when the spatial data stored in the table or view is stored with a spatial reference identifier (SRID) of zero (0).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000134031"
+            },
+            {
+              "id": "BUG-000159928",
+              "description": "The Build LAS Dataset Pyramid tool fails when there is no ArcGIS 3D Analyst extension assigned.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000159928"
+            },
+            {
+              "id": "BUG-000167582",
+              "description": "The Create Topology wizard does not add the new topology to the active map when the data source is an SQLite mobile geodatabase.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167582"
+            },
+            {
+              "id": "BUG-000167784",
+              "description": "The 'Select By Attributes' tool on the historical marker returns the error message \"ERROR 000358: Invalid expression\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000167784"
+            },
+            {
+              "id": "BUG-000169714",
+              "description": "Labels are partially cut off at the edge of cache tiles generated in ArcGIS Pro if the Never remove (place overlapping) option is enabled for the label.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000169714"
+            },
+            {
+              "id": "BUG-000171187",
+              "description": "Identify the network index inconsistency during the trace and pass the information to the trace framework.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000171187"
+            },
+            {
+              "id": "BUG-000176043",
+              "description": "The utility network layer becomes out of sync with other layers when changing moments or versions.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000176043"
+            },
+            {
+              "id": "BUG-000181065",
+              "description": "The ArcGIS Arcade Find function incorrectly returns zero in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000181065"
+            },
+            {
+              "id": "BUG-000182038",
+              "description": "The vector tile package labels do not display for Japanese characters in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182038"
+            },
+            {
+              "id": "BUG-000182179",
+              "description": "The error message \"Failed to delete relationship for object [ElectricDevice]. The feature is deleted\" is returned when attempting to delete an ElectricDevice feature, but the error no longer occurs after the second or third attempt to delete the same feature.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000182179"
+            },
+            {
+              "id": "BUG-000183398",
+              "description": "Improve versatility of network diagrams by permitting smaller cells in the Add Grid Layout tool",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183398"
+            },
+            {
+              "id": "BUG-000183460",
+              "description": "Improve the performance of the propagation step on the subnetwork traces.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183460"
+            },
+            {
+              "id": "BUG-000183708",
+              "description": "ArcGIS Pro crashes unexpectedly when creating utility network line features (PipelineLine and StructureLine).",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183708"
+            },
+            {
+              "id": "BUG-000183896",
+              "description": "DifferenceCursor in CoreHost does not release version lock after disposal on a branch versioned feature service.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000183896"
+            },
+            {
+              "id": "BUG-000184069",
+              "description": "Improve the performance of the Update Subnetwork tool when a large number of features are removed from the subnetwork.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184069"
+            },
+            {
+              "id": "BUG-000184533",
+              "description": "The Coordinate Conversion tool is not changing easting and westing labels as expected in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184533"
+            },
+            {
+              "id": "BUG-000184560",
+              "description": "The validate network topology operation unnecessarily counts the number of dirty areas.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184560"
+            },
+            {
+              "id": "BUG-000184602",
+              "description": "Using the Set Mosaic Dataset Properties geoprocessing tool causes an app crash when changing the raster function template in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184602"
+            },
+            {
+              "id": "BUG-000184678",
+              "description": "ST Geometry, ST DOMAIN METHODS, and ODCIINDEXCREATE use an _ _ _ incorrect filter to fetch input geometries for the domain index.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184678"
+            },
+            {
+              "id": "BUG-000184885",
+              "description": "The Import Subnetwork Controllers tool does not check for or block invalid characters in the subnetwork name and subnetwork controller name.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184885"
+            },
+            {
+              "id": "BUG-000184977",
+              "description": "The Apply Masks From Rules tool does not mask the hatched fill layer in a polygon symbol that contains more than one symbol layer.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000184977"
+            },
+            {
+              "id": "BUG-000185059",
+              "description": "The Make Masks From Rules tool creates masks where the source annotation and target point feature classes do not intersect.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185059"
+            },
+            {
+              "id": "BUG-000185237",
+              "description": "In ArcGIS Pro, the Traverse tool automatically alters previously entered bearings (by approximately 90°) when using the Radial direction and entering the same bearing multiple times.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185237"
+            },
+            {
+              "id": "BUG-000185243",
+              "description": "The output of the Trace and Export Subnetwork tools does not include related records when the relationship class is not based on GlobalID.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185243"
+            },
+            {
+              "id": "BUG-000185272",
+              "description": "ArcGIS Pro hangs indefinitely after copying and pasting an annotation and then opening the annotation tool from the Modify Features pane in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185272"
+            },
+            {
+              "id": "BUG-000185281",
+              "description": "Failures to write intermediary outputs cause tool failures.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185281"
+            },
+            {
+              "id": "BUG-000185287",
+              "description": "The Traverse tool does not maintain contiguity when changing the position of the line segment in ArcGIS Pro.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185287"
+            },
+            {
+              "id": "BUG-000185345",
+              "description": "ArcGIS Pro crashes when an S-101 Electronic Navigational Chart (ENC) layer is added to a map view.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185345"
+            },
+            {
+              "id": "BUG-000185368",
+              "description": "Issues with the authorization process for ArcGIS Pro 3.7 using new Single Use licenses on Windows with the Czech locale.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185368"
+            },
+            {
+              "id": "BUG-000185538",
+              "description": "Attachment frames in ArcGIS Pro reports do not render images during preview or export.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185538"
+            },
+            {
+              "id": "BUG-000185543",
+              "description": "Attempting to add a SpatioTemporal Asset Catalog (STAC) item to a new map results in an error indicating an unsupported data type and fails to open the raster dataset.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185543"
+            },
+            {
+              "id": "BUG-000185547",
+              "description": "The error message \"User must be database SUPERUSER to create database objects\" is returned when using the Create Enterprise Geodatabase geoprocessing tool on an Azure Database for PostgreSQL flexible server instance.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185547"
+            },
+            {
+              "id": "BUG-000185552",
+              "description": "ArcGIS Pro does not display feature classes in SAP HANA when the 'SELECT' privilege is granted at the schema level.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185552"
+            },
+            {
+              "id": "BUG-000185652",
+              "description": "Make the Validate Consistency option disabled by default in the Trace geoprocessing tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185652"
+            },
+            {
+              "id": "BUG-000185679",
+              "description": "Running the Extract Multi Values to Points tool on point features stored in an enterprise geodatabase (PostgreSQL or Oracle) causes features outside the raster extent to lose geometry and become invisible on the map.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185679"
+            },
+            {
+              "id": "BUG-000185685",
+              "description": "The Export Mosaic Dataset Paths tool returns the local path to the .acs connection file when it is run on cloud-hosted mosaic dataset items in ArcGIS Pro 3.7.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185685"
+            },
+            {
+              "id": "BUG-000185836",
+              "description": "The Validate Topology, Disable Network Topology and Enable Network Topology geoprocessing tools fail with the \"Unable to validate network topology because another session is currently validating.\" error.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185836"
+            },
+            {
+              "id": "BUG-000185987",
+              "description": "A table type parquet output is generated if a feature layer is opted as input in the Export To Parquet geoprocessing tool.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000185987"
+            },
+            {
+              "id": "BUG-000186083",
+              "description": "Full disk space can cause corruption of the user.config file, leading to ArcGIS Pro being unable to start.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186083"
+            },
+            {
+              "id": "BUG-000186089",
+              "description": "Local images fail to load in the viewer when opening via Display Image",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186089"
+            },
+            {
+              "id": "BUG-000186214",
+              "description": "The ArcGIS Workflow Manager job card in ArcGIS Pro does not properly display webhook dependencies.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186214"
+            },
+            {
+              "id": "BUG-000186333",
+              "description": "A blank row for the source definition query in the data reference workbook returns the error message \"Error 000358: Invalid Expression\".",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186333"
+            },
+            {
+              "id": "BUG-000186398",
+              "description": "Extract Multi Values to Points deletes the original input when gpkg points dataset is used as input",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186398"
+            },
+            {
+              "id": "BUG-000186641",
+              "description": "Propagated bits are not always recombined properly in loops.",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186641"
+            },
+            {
+              "id": "BUG-000186787",
+              "description": "ArcGIS Maritime Create S-57 Exchange Set tool generates an incorrect bounding extent for cancellations",
+              "url": "https://support.esri.com/en-us/bug/BUG-000186787"
+            }
+          ]
+        },
         {
           "version": "3.7.1",
           "cumulative": true,
@@ -32452,7 +32683,7 @@
             },
             {
               "id": "BUG-000158462",
-              "description": "The Extract by Circle tool returns an unexpected raster output under certain conditions in ArcGIS Pro 3.1.1, 3.1, 2.9.5, and 3.0.4, or ArcMap",
+              "description": "The Extract by Circle tool returns an unexpected raster output under certain conditions in ArcGIS Pro 3.1.1, 3.1, 2.9.5, and 3.0.4, or ArcMap 10.8.1 and 10.7.1. However, the tool works as expected in ArcMap 10.4.1 and 10.6.1.",
               "url": "https://support.esri.com/en-us/bug/BUG-000158462"
             },
             {
@@ -34317,12 +34548,12 @@
             },
             {
               "id": "BUG-000183319",
-              "description": "Post must get the can post property from the write lock",
+              "description": "Post must get the can post property from the write lock _",
               "url": "https://support.esri.com/en-us/bug/BUG-000183319"
             },
             {
               "id": "BUG-000183359",
-              "description": "_ Utility network associations are not created when using preset templates.",
+              "description": "Utility network associations are not created when using preset templates.",
               "url": "https://support.esri.com/en-us/bug/BUG-000183359"
             },
             {
