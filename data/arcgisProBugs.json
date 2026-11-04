@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "created": "2026-11-03T13:44:41.787785",
-    "last_updated": "2026-11-03T13:44:41.787791",
+    "created": "2026-11-04T13:52:33.870328",
+    "last_updated": "2026-11-04T13:52:33.870331",
     "latest_version": "3.7",
     "latest_patch": "3.7.3",
     "total_versions": 12,
@@ -30,7 +30,7 @@
       "latest_patch": "2.6.10",
       "total_bugs": 343,
       "total_patches": 11,
-      "last_scraped": "2026-11-03T13:41:16.847074",
+      "last_scraped": "2026-11-04T13:49:51.753206",
       "patches": [
         {
           "version": "2.6.10",
@@ -1817,12 +1817,12 @@
     },
     "2.7": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/2.7/get-started/release-notes.htm",
-      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-2-7-issues-addressed.pdf",
+      "pdf_url": "https://links.esri.com/arcgis-pro-issues-addressed-27x",
       "pdf_size": 588675,
       "latest_patch": "2.7.7",
       "total_bugs": 411,
       "total_patches": 8,
-      "last_scraped": "2026-11-03T13:41:28.874354",
+      "last_scraped": "2026-11-04T13:50:01.461401",
       "patches": [
         {
           "version": "2.7.7",
@@ -3936,7 +3936,7 @@
       "latest_patch": "2.8.8",
       "total_bugs": 389,
       "total_patches": 9,
-      "last_scraped": "2026-11-03T13:41:40.974730",
+      "last_scraped": "2026-11-04T13:50:10.853479",
       "patches": [
         {
           "version": "2.8.8",
@@ -5946,7 +5946,7 @@
       "latest_patch": "2.9.14",
       "total_bugs": 623,
       "total_patches": 15,
-      "last_scraped": "2026-11-03T13:42:00.396126",
+      "last_scraped": "2026-11-04T13:50:26.085851",
       "patches": [
         {
           "version": "2.9.14",
@@ -9157,12 +9157,12 @@
     },
     "3.0": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.0/get-started/release-notes.htm",
-      "pdf_url": "https://links.esri.com/arcgis-pro-issues-addressed-30x",
+      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-0-issues-addressed.pdf",
       "pdf_size": 680105,
       "latest_patch": "3.0.6",
       "total_bugs": 555,
       "total_patches": 7,
-      "last_scraped": "2026-11-03T13:42:16.964039",
+      "last_scraped": "2026-11-04T13:50:39.012705",
       "patches": [
         {
           "version": "3.0.6",
@@ -11990,7 +11990,7 @@
       "latest_patch": "3.1.8",
       "total_bugs": 752,
       "total_patches": 9,
-      "last_scraped": "2026-11-03T13:42:40.938168",
+      "last_scraped": "2026-11-04T13:50:58.085812",
       "patches": [
         {
           "version": "3.1.8",
@@ -15815,7 +15815,7 @@
       "latest_patch": "3.2.5",
       "total_bugs": 818,
       "total_patches": 6,
-      "last_scraped": "2026-11-03T13:43:08.876669",
+      "last_scraped": "2026-11-04T13:51:20.036625",
       "patches": [
         {
           "version": "3.2.5",
@@ -19952,7 +19952,7 @@
       "latest_patch": "3.3.8",
       "total_bugs": 648,
       "total_patches": 9,
-      "last_scraped": "2026-11-03T13:43:29.049839",
+      "last_scraped": "2026-11-04T13:51:36.024861",
       "patches": [
         {
           "version": "3.3.8",
@@ -23252,12 +23252,12 @@
     },
     "3.4": {
       "release_notes_url": "https://pro.arcgis.com/en/pro-app/3.4/get-started/release-notes.htm",
-      "pdf_url": "https://links.esri.com/arcgis-pro-issues-addressed-34x",
+      "pdf_url": "https://www.esri.com/content/dam/esrisites/en-us/media/products/arcgis-pro-issues-addressed/arcgis-pro-3-4-issues-addressed.pdf",
       "pdf_size": 640305,
       "latest_patch": "3.4.6",
       "total_bugs": 532,
       "total_patches": 7,
-      "last_scraped": "2026-11-03T13:43:45.543721",
+      "last_scraped": "2026-11-04T13:51:49.219726",
       "patches": [
         {
           "version": "3.4.6",
@@ -25970,7 +25970,7 @@
       "latest_patch": "3.5.9",
       "total_bugs": 597,
       "total_patches": 10,
-      "last_scraped": "2026-11-03T13:44:05.497598",
+      "last_scraped": "2026-11-04T13:52:04.991396",
       "patches": [
         {
           "version": "3.5.9",
@@ -29026,7 +29026,7 @@
       "latest_patch": "3.6.5",
       "total_bugs": 614,
       "total_patches": 6,
-      "last_scraped": "2026-11-03T13:44:25.043675",
+      "last_scraped": "2026-11-04T13:52:20.784838",
       "patches": [
         {
           "version": "3.6.5",
@@ -32143,7 +32143,7 @@
       "latest_patch": "3.7.3",
       "total_bugs": 510,
       "total_patches": 3,
-      "last_scraped": "2026-11-03T13:44:41.787568",
+      "last_scraped": "2026-11-04T13:52:33.870197",
       "patches": [
         {
           "version": "3.7.3",
